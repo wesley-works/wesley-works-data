@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To George Merryweather (January 24, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2020-09-05</date>
+            <idno type="URI">http://syriaca.org/letters/1760-01-24-ToGeorgeMerryweather</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To George Merryweather (January 24, 1760)</title>
+                     <date when="1760-01-24"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="182"></biblScope>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / <persName><ref target="/persons/pers1420.xml"/>Mr 
+                  George Merryweather</persName> / In <placeName>Yarm</placeName> / <placeName>
+                  Yorkshire</placeName>&apos;. Postmark: &apos;26/IA&apos;. Charge: &apos;4&apos;. 
+                  Endorsement: &apos;<date when="1760-01">Jany 1760</date>&apos;. Source: holograph; 
+                  <placeName>Wesley&apos;s Chapel</placeName> (<placeName>London</placeName>), 
+               LDWMM 1992/410/2.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1420">
+                  <persName>George Merryweather</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1391">
+                  <persName>Alexander Mather</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person>
+                  <!--Mr. Waldy is referenced in the footnotes but no xml:id exists-->
+                  <persName>Mr. Waldy</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1420.xml"/>George Merryweather</persName>
+            <note place="foot" n="1"><persName><ref target="/persons/pers1420.xml"/>George Merryweather</persName>
+            was a merchant in <placeName>Yarm on Tees</placeName>, who became in the late <date>1740s</date><!--range, to be changed later-->
+            an active promoter and generous patron of Methodism, especially within the extensive <placeName>Yarm</placeName>
+            circuit</note></head>
+         <opener><placeName>Brentford</placeName><lb/><date when="1760-01-24">January 24, 1760</date><lb/><lb/>
+            <salute>My Dear Brother,</salute>
+         </opener>
+         <p>I received yours with the bill a day or two ago. I wish you would
+            everywhere recommend two books in particular—<hi rend="italic">The Christian
+            Pattern</hi> and the <hi rend="italic">Primitive Physick</hi>
+            <note place="foot" n="2">I.e., <persName><ref target="persons/pers2180.xml"/>JW</persName>
+            &apos;s abridged version of Thomas à<!--special character, accented a--> Kempis&apos;s 
+            <hi rend="italic">The Imitation of Christ</hi> (Bibliography, No. 45) and his collection of 
+            medical advice (Bibliography, No. 138 and Vol. 32 in this edn.).</note>. 
+            Tis a great pity that any Methodist should be without them.</p>
+         <p>I wonder brother <persName><ref target="persons/pers1391"/>Mather</persName>
+            <note place="foot" n="3"><persName><ref target="persons/pers1391"/>Alexander Mather</persName> (<date from="1733" to="1800">1733–1800</date>) 
+            was converted under <persName><ref target="persons/pers2180.xml"/>JW</persName>&apos;s preaching in <placeName>London</placeName>in
+            <date when="1754">1754</date> and became an itinerant in <date when="1757">1757</date>. 
+            For more detail, see <hi rend="italic">EMP</hi>, 2:158–239; Atmore, <hi rend="italic">Memorial</hi>, 256–66; and 21:309, n. 78 in this edn.</note> 
+            does not write to me. He should not forget his friends. I hope the gentleman with whom I breakfasted at
+            <placeName>Yarm</placeName><note place="foot" n="4">Perhaps 
+            <persName>Mr.Waldy</persName>, a landed proprietor in <placeName>Yarm</placeName> to 
+            whom <persName><ref target="persons/pers2180.xml"/>JW</persName> 
+            referred in a letter to <persName><ref target="pers1420"/>Merryweather</persName> of 
+            <date when="1767-12-28">Dec. 28, 1767</date>.</note> 
+            has not forsaken you. <index indexName="biblical">
+            <term cRef="Matt19:24">Even the rich <hi rend="italic">may</hi> enter into the kingdom</term></index>,
+            <index indexName="biblical"><term cRef="Matt19:26">for with God all things are possible.</term></index></p>
+            <!--Biblical allusion to Matthew chapter 19 verse 24 and 26 missing. Added here -->
+         <p>See that you stir up the gift of God that is in you.
+            <note place="foot" n="5">See <index indexName="biblical">
+            <term cRef="2Tim1:6">2 Tim. 1:6</term></index>.</note> 
+            What is our Lord’s word to you? &apos;<index indexName="biblical">
+               <term cRef="Matt8:22">Let the dead bury their dead; but follow thou
+                  me!</term></index>&apos;<note place="foot" n="6"><index indexName="biblical">
+            <term cRef="Matt8:22">Matt. 8:22</term></index>.</note></p>
+         <closer>I am,<lb/>
+            <signed>Your affectionate brother,<lb/><persName>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
