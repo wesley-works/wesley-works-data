@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To the Editor of <hi rend="italic">Lloyd&apos;s Evening Post</hi> (February 18, 1960)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-09-14</date>
+            <idno type="URI">http://syriaca.org/letters/1760-02-18-ToTheEditorofLloydsEveningPost</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Editor of <hi rend="italic">Lloyd&apos;s Evening Post</hi> (February 18 1960)</title>
+                     <date when="1760-02-18"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="183" to="184"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Lloyd’s Evening Post and British Chronicle</hi>
+                  (<date when="1760-02-22"><date when="1760-02-23"><date when="1760-02-24">Feb. 22–24, 1760</date></date></date>), 
+                  p. 190; reprinted in <hi rend="italic">Universal Chronicle and Westminster
+                  Journal</hi> (<date from="1760-02-23" to="1760-03-03">Feb. 23–Mar. 1, 1760</date>), p. 67.</bibl>
+                  <!--1760 was a leap year, so Feb 29th is included in this range-->
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc> 
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <!--No footnote is present for the recipient. 
+                  Only referred to as the Editor of Lloyd's Evening Post-->
+                  <persName>The Editor of Lloyd&apos;s Evening Post</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>The Editor of <hi rend="italic">Lloyd&apos;s Evening Post</hi></persName></head>
+         <opener><placeName>Windmill Hill<note place="foot" n="7">The location of the <placeName>Foundery</placeName>.</note>[London]</placeName>
+         <lb/><date when="1760-02-18">February 18, 1760</date><lb/><lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p>On <date when="1759-12-16">Sunday, December 16</date> last, I received a £20 bank bill from an
+            anonymous correspondent, who desired me to lay it out in the manner I judged best for the use 
+            of poor prisoners.<note place="foot" n="8">Probably due to publicity about <persName>
+            <ref target="/persons/pers2180.xml"/>JW</persName>&apos;s help offered the French prisoners 
+            held in <placeName>Knowle prison</placeName> in <placeName>Bristol</placeName>, 
+            described in earlier letters of <date when="1759-10-20">Oct. 20</date> and 
+            <date when="1759-11-04">Nov. 4, 1759</date>.</note> 
+            <!--Is there a way to reference other letters? Only the dates of the referenced letters were tagged-->
+            I immediately employed some in whom I could confide to inquire into the circumstances of
+            those confined in <placeName>WhiteChapel</placeName> and <placeName>New Prison</placeName>.
+            <note place="foot" n="9"><placeName>Whitechapel</placeName> was a debtor’s prison serving 
+            <placeName>Stepney</placeName> and <placeName>Hackney</placeName>; <placeName>New Prison</placeName> 
+            was located in <placeName>Clerkenwell</placeName> and held persons accused of petty or serious crimes.</note> 
+            I knew the former to have very little allowance even of bread, and the latter none at all.
+            Upon inquiry they found one poor woman in <placeName>Whitechapel Prison</placeName>
+            very big with child and destitute of all things. At the same time I casually heard of a poor 
+            man who had been confined for nine months in the <placeName>Poultry Counter</placeName>,<note place="foot" n="10">
+            More commonly known as &apos;<placeName>Poultry Compter</placeName>&apos;, this was a sheriff ’s prison in 
+            <placeName>London</placeName> City.</note> while his wife and three children (whom he before maintained by his labour) 
+            were almost perishing through want. Not long after, another poor woman, who had been diligent in helping others, was 
+            herself thrown into <placeName>Whitechapel Prison</placeName>. The expense of discharging these three and giving them 
+            a few necessaries amounted to £10 10s. One pound fourteen shillings I expended in stockings and other clothing, which 
+            was given to those prisoners who were in the most pressing want. The remainder, seven pounds
+            sixteen shillings, was laid out in bread, which was warily distributed
+            thrice a week. I am therefore assured that the whole of this sum was
+            laid out in real charity. And how much more noble a satisfaction must
+            result from this to the generous benefactor (<index indexName="biblical"><term cRef="Eccl3:19">even supposing there
+               were no other world, supposing man to die as a beast dieth</term></index><note place="foot" n="11">
+            See <index indexName="biblical"><term cRef="Eccl3:19">Eccles. 3:19</term></index>.</note>) 
+            than he could receive from an embroidered suit of clothes or a piece of plate
+            made in the newest fashion? Men of reason, judge!</p>
+         <closer>I am, sir,<lb/>
+            <signed>Your humble servant,<lb/><persName>John Wesley</persName></signed></closer>
+         <postscript><p><date when="1760-02-23">Feb. 23, 1760</date></p>
+         <p>I began this letter some days since, but had not leisure to finish it.</p></postscript>
+      </body>
+   </text>
+</TEI>
