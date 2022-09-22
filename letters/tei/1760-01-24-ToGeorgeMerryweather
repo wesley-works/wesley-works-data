@@ -79,7 +79,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
+      <body><pb n="182"/>
          <head>To <persName><ref target="/persons/pers1420.xml"/>George Merryweather</persName>
             <note place="foot" n="1"><persName><ref target="/persons/pers1420.xml"/>George Merryweather</persName>
             was a merchant in <placeName>Yarm on Tees</placeName>, who became in the late <date>1740s</date><!--range, to be changed later-->
