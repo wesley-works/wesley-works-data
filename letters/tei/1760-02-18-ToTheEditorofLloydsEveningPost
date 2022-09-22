@@ -40,7 +40,7 @@
                      <editor role="general">Maddox, Randy L.</editor>
                   </series>
                </biblStruct>
-               <bibl n="2">Source: published transcription; <hi rend="italic">Lloyd’s Evening Post and British Chronicle</hi>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Lloyd&apos;s Evening Post and British Chronicle</hi>
                   (<date when="1760-02-22"><date when="1760-02-23"><date when="1760-02-24">Feb. 22–24, 1760</date></date></date>), 
                   p. 190; reprinted in <hi rend="italic">Universal Chronicle and Westminster
                   Journal</hi> (<date from="1760-02-23" to="1760-03-03">Feb. 23–Mar. 1, 1760</date>), p. 67.</bibl>
@@ -82,10 +82,10 @@
             held in <placeName>Knowle prison</placeName> in <placeName>Bristol</placeName>, 
             described in earlier letters of <date when="1759-10-20">Oct. 20</date> and 
             <date when="1759-11-04">Nov. 4, 1759</date>.</note> 
-            <!--Is there a way to reference other letters? Only the dates of the referenced letters were tagged-->
+            <!--Is there a way to reference other letters? Only the dates of the referenced letters (1759-10-10 and 1759-11-04) were tagged-->
             I immediately employed some in whom I could confide to inquire into the circumstances of
             those confined in <placeName>WhiteChapel</placeName> and <placeName>New Prison</placeName>.
-            <note place="foot" n="9"><placeName>Whitechapel</placeName> was a debtor’s prison serving 
+            <note place="foot" n="9"><placeName>Whitechapel</placeName> was a debtor&apos;s prison serving 
             <placeName>Stepney</placeName> and <placeName>Hackney</placeName>; <placeName>New Prison</placeName> 
             was located in <placeName>Clerkenwell</placeName> and held persons accused of petty or serious crimes.</note> 
             I knew the former to have very little allowance even of bread, and the latter none at all.
