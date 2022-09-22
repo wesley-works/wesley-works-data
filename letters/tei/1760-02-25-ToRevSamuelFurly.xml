@@ -70,7 +70,7 @@
       </revisionDesc>
    </teiHeader>
    <text>
-      <body>
+      <body><pb n="184"/>
          <head>To <persName> <ref target="/persons/pers0763.xml"/>
             Rev. Samuel Furly</persName></head>
          <opener><placeName>London</placeName><lb/><date when="1760-02-25">February 25, 1760</date><lb/><lb/>
