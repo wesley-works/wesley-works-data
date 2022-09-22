@@ -14,7 +14,7 @@
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
             <date>2022-09-20</date>
-            <idno type="URI">http://syriaca.org/letters/1760-02-25-ToRevSamuelFurly.xml</idno>
+            <idno type="URI">http://syriaca.org/letters/1760-02-25-ToRevSamuelFurly</idno>
          </publicationStmt>
          <sourceDesc>
             <listBibl>
@@ -58,7 +58,7 @@
             <listPerson type="mentions">
                <person>
                   <persName>Mr. Dodd</persName>
-                  <!--No Mr.Dodd exists in Person Lists. There's a Dr. Dodd and a Mr. Doddridge-->
+                  <!--No Mr. Dodd exists in Person Lists. There's a Dr. Dodd(xml:id=pers0598) but this could still be referencing Dr. Dodd.-->
                </person>
             </listPerson>
          </particDesc>
@@ -80,8 +80,8 @@
             on <date when="1760-03-11">Tuesday, March 11</date>.</p>
          <!--1760 portion of date extrapulated from context-->
          <p>Your manner of proposing your objection puts me in mind of
-            your friend <persName>Mr. Dodd</persName>. You speak <hi rend="italic">ex cathedra</hi>. 
-            <note place="foot" n="12">Latin &apos;from the teaching office&apos;; 
+            your friend <persName>Mr. Dodd</persName>. You speak <foreign rend="italic">ex cathedra</foreign>. 
+            <note place="foot" n="1">Latin &apos;from the teaching office&apos;; 
                i.e., as if delivering a papal pronouncement.</note>
             But the matter is not so clear as it appears to you. It is, however, a point, 
             though considered long ago, worth considering again and again. But you must
