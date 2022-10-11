@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To an Unidentified Man (March 17, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-10-06</date>
+            <idno type="URI">http://syriaca.org/letters/1760-03-17-ToanUnidentifiedMan</idno>
+                  <!--Do I include 'an' in the file name?-->
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To an Unidentified Man (March 17, 1760)</title>
+                     <date when="1760-03-17"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="186"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Endorsement: &apos;Revd Mr <persName><ref target="/persons/pers2180.xml">John Wesley</persName> / <placename>Manchester</placename> <date when="1760-03-18">18 March 1760</date>&apos;.
+                  Source: holograph; Bridwell Library (SMU), address portion missing.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person>
+                  <persName>Unidentified Man</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person>
+                  <persName>James Vine</persName>
+               </person>
+               <person xml:id="pers0788">
+                  <persName>George II</persName>
+                  <!--is this how I reference King George?-->
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers0179">
+                  <persName>Ebenezer Blackwell</persName>
+               </person>
+               <person>
+                  <persName>Thomas Jackson</persName>
+                  <!--I'm not sure it's correct to list Thomas Jackson as he is a source mentioned in footnote 1-->
+               </person>
+               <person>
+                  <persName>Telford</persName>
+                  <!--I'm not sure it's correct to list Telford as he is a editor mentioned in footnote 1-->
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName>
+            an Unidentified Man</persName><note place="foot" n="1">Although <persName>Thomas Jackson</persName> 
+            listed the recipient of this letter as <persName><ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName> in
+            his editions of <persName><ref target="/persons/pers2180.xml"/>JW</persname>&apos;s Works 
+            (probably because it refers to <placename>Lewisham</placename> where <persName><ref target="/persons/pers0179.xml"/>Blackwell</persname> lived),
+            <persName>Telford</persName> pointed out that it is not in the more familial style in which 
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName> typically wrote to
+            <persName><ref target="/persons/pers0179.xml"/>Blackwell</persName>. <persName>Telford</persName> 
+            suggested that the letter was probably addressed to someone in authority in
+            the <placeName>Excise Office</placeName> whom <persName><ref target="/persons/pers2180.xml"/>JW</persName> 
+            met at <persName><ref target="/persons/pers0179.xml"/>Mr. Blackwell</persName>&apos;s at <placeName>Lewisham</placeName> (Letters, 4:86).</note></head>
+         <opener><placeName>Manchester</placeName><lb/><date when="1760-03-17">March 17, 1760</date><lb/><lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p>The humanity which you showed during the short time I had
+            the pleasure of conversing with you at <placeName>Lewisham</placeName> emboldens me to
+            trouble you with a line in behalf of a worthy man.</p>
+         <p>I apprehend the collector at <placeName>Northwich</placeName> in <placeName>Cheshire</placeName> has informed
+            the Honourable Board that &apos;Mr. <persName>James Vine</persName> is a preacher at <placeName>Northwich</placeName>
+            and makes disturbances in the town&apos;. That he attends the
+            preaching of the Methodists is true. But it is not true that he is
+            a preacher. It is likewise true that the rabble of <placeName>Northwich</placeName> have
+            sometimes disturbed our congregations.<note place="foot" n="2">
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName> reports being attacked later in <placeName>Northwich</placeName> in his 
+            <hi rend="italic">Journal</hi>, <date when="1762-08-03">Aug. 3, 1762</date>, 21:382 in
+            this edn.</note> But herein <persName>Mr. Vine</persName> was
+            only concerned as a sufferer, not an actor. I know him to be a careful,
+            diligent officer, and a zealous lover of <persName><ref target="/persons/pers0788.xml"/>King George</persName>.</p>
+         <closer>Wishing you all temporal and spiritual blessings, I remain, sir,<lb/>
+            <signed>Your obedient servant,<lb/><persName>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
