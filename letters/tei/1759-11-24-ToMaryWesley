@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (November 24, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-11-24-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (November 24, 1759)</title>
+                     <date when="1759-11-24"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="180" to="181"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mrs <persName><ref target="/persons/pers2091.xml"
+                     />Wesley</persName> / At the Foundery / <placeName>London</placeName>&apos;.
+                  Postmark: &apos;26/NO&apos; (twice stamped). Charge: &apos;3&apos;. Source:
+                  holograph; MARC, MAM <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  5/61.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2091.xml"/>Mary (Goldhawk/Vazeille)
+               Wesley</persName></head>
+         <opener><placeName>Bedford</placeName><lb/><date when="1759-11-24">November 24, 1759</date><lb/><lb/>
+            <salute>My Dear Molly,</salute>
+         </opener>
+         <p><pb n="180"/>You have been much upon my thoughts this morning. Shall I tell you what I
+            thought? Then take it<note place="foot" n="1">Orig., the word &apos;it&apos; is doubled
+               at the end of one line and at the beginning of the next.</note> in good part. Take it
+            kindly, as it is kindly meant.</p>
+         <p>What do you gain by keeping my papers, or at least think you gain? Why, this: you gain
+            the satisfaction of showing them, or parts of them, to others; you gain the power of
+            justifying <hi rend="italic">yourself</hi>, and of hurting (at least by vexing) <hi
+               rend="italic">me</hi>; you gain occasion to make people think ill of <hi
+               rend="italic">me</hi>, and to make them think well of <hi rend="italic">you</hi>. And
+            hereby you make yourself more friends and me more enemies.</p>
+         <p>Very well. But are you quite sure of this? Is it <hi rend="italic">pure
+               satisfaction</hi> which you gain by showing them? Is there not often a doubt whether
+            you do right, a secret misgiving which spoils the satisfaction? Will the <hi
+               rend="italic">showing</hi> them justify you for <hi rend="italic">taking</hi> them?
+            Is it not rather adding sin to sin? And will not even men of the world say, &apos;What a
+            wretch is this, first to <hi rend="italic">rob</hi>, then to <hi rend="italic"
+               >expose</hi> her own husband&apos;? If, therefore, you make them think ill of me, you
+            do not make them think well of <hi rend="italic">yourself</hi>. If you make me more
+            enemies, you do not make yourself one more friend. Nay, all these after a time are less
+            your friends than ever they were before.</p>
+         <p>But what if you did gain by it all that you suppose, would it make amends for what you
+            lose thereby? You totally lose my esteem, you violently shock my love, you quite destroy
+            my confidence. You oblige me to lock up everything as from a thief; to stand continually
+            upon my guard, to watch all the time you are near me, as never knowing what you may
+            steal next and expose to all the world. You cut yourself off from joint prayer. For how
+            can I pray with one that is daily watching to do me hurt? You cut yourself off from all
+            friendly intercourse with many who would otherwise rejoice to converse with and serve
+            you. You rob yourself of many precious opportunities of public prayer and attending the
+            Lord’s Table.</p>
+         <p>Now, how dearly must you love <hi rend="italic">justifying</hi> yourself and <hi
+               rend="italic">blackening</hi> me, if you will do it at this expense?<pb n="181"/></p>
+         <p>O <persName><ref target="/persons/pers2091.xml"/>Molly</persName>, throw the fire out of
+            your bosom! Shun as you would a serpent those that stir it up. And see in a true
+            light,</p>
+         <closer><signed>Your affectionate husband,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
