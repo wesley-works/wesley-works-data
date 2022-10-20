@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Rev. Thomas Jones (August 22, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-08-22-ToTheRevThomasJones</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Rev. Thomas Jones (August 22, 1759)</title>
+                     <date when="1759-08-22"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="172" to="173"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: secondary manuscript transcription; MARC, MA 1983/027 (Mather
+                  scrapbook).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1190">
+                  <persName>Rev. Thomas Jones</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers0857">
+                  <persName>Jane Green</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1190.xml"/>the Rev. Thomas
+               Jones</persName><note place="foot" n="1">The transcription does not identify the
+               recipient; Telford titles &apos;To Mr. Jones&apos;. <persName><ref
+                     target="/persons/pers1190.xml"/>Rev. Thomas Jones</persName> had recently
+               initiated contact with <persName><ref target="/persons/pers2180.xml"/>JW</persName>
+               (see his letter of <date when="1759-03-21">Mar. 21, 1759</date>), and would be a
+               fitting person for <persName><ref target="/persons/pers2180.xml"/>JW</persName> to
+               ask for input on revising <hi rend="italic">NT Notes</hi>.</note></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-08-22">August 22, 1759</date><lb/><lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p><pb n="172"/>Nothing is more certain than that the kingdom of God is not <index
+               indexName="biblical">
+               <term cRef="Mark3:25">divided against itself</term>
+            </index>;<note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Mark3:25">Mark 3:25</term>
+               </index>.</note> that peace and joy in the Holy Ghost are no ways obstructive of
+            righteousness, even in the highest degree of it. Hold fast, therefore, that <index
+               indexName="biblical">
+               <term cRef="Phil3:16">whereunto you have attained</term>
+            </index>,<note place="foot" n="3">See <index indexName="biblical">
+                  <term cRef="Phil3:16">Phil. 3:16</term>
+               </index>.</note> and in peace and joy wait for perfect love. We know &apos;<index
+               indexName="biblical">
+               <term cRef="Eph2:9">this is not of works, lest any man should boast</term>
+            </index>&apos;,<note place="foot" n="4"><index indexName="biblical">
+                  <term cRef="Eph2:9">Eph. 2:9</term>
+               </index>.</note> and it is no more of <hi rend="italic">sufferings</hi> than it is of
+            works. Nothing is absolutely pre-required but a sense of our want; and this may be a
+            calm, peaceful, yea, a joyful sense of it. When I was lately in
+               <placeName>Rotherham</placeName>, I talked with eleven persons who seem to be
+            perfected in love.<note place="foot" n="5">See <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic">Journal</hi>,
+                  <date when="1759-08-02">Aug. 2, 1759</date>, 21:221 in this edn.</note> Of these
+                  <persName><ref target="/persons/pers0857.xml"/>Jane Green</persName> (the wife of
+            one of our preachers<note place="foot" n="6">Apparently a local preacher, as there were
+               no itinerants of that name at the time.</note>) was <foreign rend="italic">facile
+               princeps</foreign><note place="foot" n="7">&apos;Easily the
+            leader&apos;.</note>—higher and deeper in experience than them all—and she never was in
+            darkness or heaviness one hour during the second conviction. Only she felt in a manner
+            not to be expressed her own foolishness, emptiness, and nothingness. And in this state
+            she quietly continued till God said, &apos;<index indexName="biblical">
+               <term cRef="Matt8:3">Be thou clean</term>
+            </index>&apos;.<note place="foot" n="8">See <index indexName="biblical">
+                  <term cRef="Matt8:3">Matt. 8:3</term>
+               </index> and parallels.</note></p>
+         <p>While I was riding (since Christmas) three- or four-and-twenty hundred miles I found no
+            want of strength. But when my work was at an end, so was my strength. When I want it, I
+            shall have it again. I <pb n="173"/>thought you was to have been here in
+               <date>October</date>, but God&apos;s time is the best! He doth all things well. Why
+            should we not trust him in all!</p>
+         <closer>I am, dear sir,<lb/>
+            <signed>Ever yours,<lb/><persName>John Wesley</persName></signed></closer>
+         <postscript>
+            <p>Will you take the time and pains to read the <hi rend="italic">Notes</hi> critically
+               over, and give me your alterations and additions before I print another edition!<note
+                  place="foot" n="9"><persName><ref target="/persons/pers2180.xml"/>JW</persName>
+                  and <persName><ref target="/persons/pers2176.xml"/>CW</persName> spent <date
+                     when="1759-12">December</date> revising <hi rend="italic">NT Notes</hi>,
+                  resulting in its definitive 3rd edn.; see <persName><ref
+                        target="/persons/pers2180.xml"/>JW</persName>, <hi rend="italic"
+                     >Journal</hi>, <date when="1759-12-12">Dec. 12, 1759</date>, 21:236 in this
+                  edn.</note></p>
+         </postscript>
+      </body>
+   </text>
+</TEI>
