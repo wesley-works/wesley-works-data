@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Wesley (October 23, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-10-23-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Wesley (October 23, 1759)</title>
+                     <date when="1759-10-23"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="175" to="177"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mrs Wesley&apos;. No postmark or indications of
+                  postal charge; apparently delivered by hand. Source: holograph; Harvard
+                  University, Houghton Library, MS Eng 870 (44).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary Wesley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers1793">
+                  <persName>Sarah Ryan</persName>
+               </person>
+               <person xml:id="pers0506">
+                  <persName>Sarah Crosby</persName>
+               </person>
+               <person xml:id="pers1248">
+                  <persName>Mr. Landey</persName>
+               </person>
+               <person xml:id="pers0309">
+                  <persName>James Burges</persName>
+               </person>
+               <person xml:id="pers1728">
+                  <persName>Sarah Rigby</persName>
+               </person>
+               <person xml:id="pers1265">
+                  <persName>Mrs. Lee</persName>
+               </person>
+               <person xml:id="pers0759">
+                  <persName>Mrs. Fry</persName>
+               </person>
+               <person xml:id="pers1122">
+                  <persName>James Ireland</persName>
+               </person>
+               <person xml:id="pers0758">
+                  <persName>Mr. Fry</persName>
+               </person>
+               <person xml:id="pers2194">
+                  <persName>Susanna Ellison</persName>
+               </person>
+               <person xml:id="pers1180">
+                  <persName>Joseph Jones</persName>
+               </person>
+               <person xml:id="pers0355">
+                  <persName>Clayton Carthy</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2091.xml"/>Mary (Goldhawk/Vazeille)
+               Wesley</persName></head>
+         <opener><placeName>Coleford</placeName><lb/><date when="1761-01-01">October 23, 1759</date><lb/><lb/>
+            <salute>Dear Molly,</salute>
+         </opener>
+         <p><pb n="175"/>I will tell you simply and plainly the things which I dislike. If you
+            remove them, well. If not, I am but where I was.</p>
+         <p>I dislike 1) your showing any one my letters<note place="foot" n="1">The ms. has a
+               series of comments in this paragraph that are not in <persName><ref
+                     target="/persons/pers2180.xml"/>JW</persName>&apos;s hand (likely by
+                     <persName><ref target="/persons/pers2091.xml"/>Mary</persName>). Here is the
+               first: &apos;Not being fit to be seen.&apos;</note> and private papers without my
+            leave. This never did any good yet, either to you or me or any one. It only sharpens and
+            embitters your own spirit. And the same effect it naturally has upon others. The same it
+            would have upon me, but that (by the grace of God) I do not think of it.<note
+               place="foot" n="2">The comment is added: &apos;NO.&apos;</note> It can do no good. It
+            can never bring me nearer, though it may drive me farther off.<note place="foot" n="3"
+               >The comment is added: &apos;Imposable.&apos;</note> And should you do as you often
+            threaten, then the matter is over. &lt;I<note place="foot" n="4">A small repair covers
+               where this word would surely appear.</note>&gt; know what I have to do.<note
+               place="foot" n="5">The comment is added: &apos;Belye me as you have
+               been?&apos;</note></p>
+         <p>In all this you are fighting against yourself. You are frustrating your own purpose, if
+            you want me to love you. You take just the wrong way. No one ever was <hi rend="italic"
+               >forced</hi> to love another. It cannot be. Love can only be won by <hi rend="italic"
+               >softness</hi>; foul means avail nothing. But you say, &apos;I have tried fair means,
+            and they did not succeed.&apos; If they<pb n="176"/> do not, none will. Then you have
+            only to say, &apos;<index indexName="biblical">
+               <term cRef="2Kgs6:33">This evil is of the Lord.</term>
+            </index><note place="foot" n="6">See <index indexName="biblical">
+                  <term cRef="2Kgs6:33">2 Kgs. 6:33</term>
+               </index>.</note>
+            <index indexName="biblical">
+               <term cRef="Isa64:8">I am clay in his hand</term>
+            </index>.&apos;<note place="foot" n="7">See <index indexName="biblical">
+                  <term cRef="Isa64:8">Isa. 64:8</term>
+               </index>.</note></p>
+         <p>I dislike 2) not having the command of my own house, not being at liberty to invite even
+            my nearest relations so much as to drink a dish of tea without disobliging <hi
+               rend="italic">you</hi>.</p>
+         <p>I dislike 3) the being myself a prisoner in my own house; the having my chamber door
+            watched continually so that no person can go in or out but such as have your good
+            leave.</p>
+         <p>I dislike 4) the being but a prisoner at large, even when I go abroad, inasmuch as you
+            are highly disgusted if I do not give you an account of every place I go to and every
+            person with whom I converse.</p>
+         <p>I dislike 5) the not being safe in my own house. My house is <hi rend="italic">not</hi>
+            my castle. I cannot call even my study, even my bureau, my own. They are liable to be
+            plundered every day. You say, &apos;I plunder you of nothing but papers.&apos; I am not
+            sure of that. How is it possible I should? I miss money too, and he that will steal a
+            pin will steal a pound. But were it so, a scholar&apos;s papers are his treasure—my
+            journal in particular. &apos;But I took only such papers as relate to <persName><ref
+                  target="/persons/pers1793.xml"/>Sarah Ryan</persName> and <persName><ref
+                  target="/persons/pers0506.xml"/>Sarah Crosby</persName>.&apos; That is not true.
+            What are <persName><ref target="/persons/pers1248.xml"/>Mr. Landey</persName>&apos;s
+            letters to them? Besides, you have taken parts of my journal which relate neither to one
+            nor the other.</p>
+         <p>I dislike 6) your treatment of my servants (though, indeed, they are not properly mine).
+            You do all that in you lies to make their lives a burden to them. You browbeat, harass,
+            rate them like dogs, make them afraid to speak to me. You treat them with such
+            haughtiness, sternness, sourness, surliness, ill-nature, as never were known in any
+            house of mine for near a dozen years. You forget even good breeding, and use such coarse
+            language as befits none but a fishwife.<note place="foot" n="8">A woman that sells fish;
+               connoting a vulgar woman.</note></p>
+         <p>I dislike 7) your talking against me behind my back, and that every day and almost every
+            hour of the day; making my faults (real or supposed) the standing topic of your
+            conversation.</p>
+         <p>I dislike 8) your slandering me, laying to my charge things which you know are false.
+            Such are (to go but a few days back): that I beat you, which you told <persName><ref
+                  target="/persons/pers0309.xml"/>James Burges</persName>;<note place="foot" n="9"
+                     ><persName><ref target="/persons/pers0309.xml"/>Burges</persName> lived in
+                  <placeName>Bristol</placeName> and had been an early supporter of the Kingswood
+               School; see <persName><ref target="/persons/pers2180.xml"/>JW</persName>, <hi
+                  rend="italic">Journal</hi>, <date when="1757-10-25">Oct. 25, 1757</date>,
+               21:129–30 in this edn.</note> that I rode to <placeName>Kingswood</placeName> with
+                  <persName><ref target="/persons/pers1793.xml"/>Sarah Ryan</persName>, which you
+            told <persName><ref target="/persons/pers1728.xml"/>Sarah Rigby</persName>; and that I
+            required you, when we were first married, never to sit in my presence without my leave,
+            which you told <persName><ref target="/persons/pers1265.xml"/>Mrs. Lee</persName>,
+                  <persName><ref target="/persons/pers0759.xml"/>Mrs. Fry</persName>, and several
+            others, and stood to it before my face.<pb n="177"/></p>
+         <p>I dislike 9) your common custom of saying things not true. To instance only in two or
+            three particulars. You told <persName><ref target="/persons/pers1122.xml"/>Mr.
+               Ireland</persName>,<note place="foot" n="10"><persName><ref
+                     target="/persons/pers1122.xml"/>James Ireland</persName> of
+                  <placeName>Bristol</placeName> (see the letter of <date when="1759-11-04">Nov. 4,
+                  1759</date>).</note> &apos;Mr. <persName>Vazeille</persName> learnt Spanish in a
+            fortnight.&apos; You told <persName><ref target="/persons/pers0758.xml"/>Mr.
+               Fry</persName>, &apos;<persName><ref target="/persons/pers2194.xml"/>Mrs.
+               Ellison</persName><note place="foot" n="11">I.e., <persName><ref
+                     target="/persons/pers2194.xml"/>Susanna (Wesley) Ellison</persName>,
+                     <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s sister. At
+               this point <persName><ref target="/persons/pers2194.xml"/>Susanna</persName> (or
+               &apos;Suky&apos;) was living in <placeName>London</placeName>.</note> was the author
+            as to my intrigue in <placeName>Georgia</placeName>.&apos; You told Mrs. <persName><ref
+                  target="/persons/pers2194.xml"/>Ellison</persName> &apos;you never said any such
+            thing; you never charged her with it.&apos; You also told her &apos;that I had laid a
+            plot to serve you as Susannah was served by the two elders.&apos;<note place="foot"
+               n="12">Referring to the story in the apocryphal book of Susanna, included by the
+               Catholic Church in the book of Daniel.</note></p>
+         <p>I dislike 10) Your extreme, immeasurable bitterness to all who endeavour to defend my
+            character (as my brother, <persName><ref target="/persons/pers1180.xml"/>Joseph
+               Jones</persName>, <persName><ref target="/persons/pers0355.xml"/>Clayton
+               Carthy</persName>), breaking out even into foul, unmannerly language, such as ought
+            not to defile a gentlewoman&apos;s lips if she did not believe one word of the
+            Bible.</p>
+         <p>And now, <persName><ref target="/persons/pers2091.xml"/>Molly</persName>, what would any
+            one advise you to that has a real concern for your happiness? Certainly 1) to show,
+            read, touch those letters no more, if you did not restore them to their proper owner; 2)
+            to allow me the command of my own house, with free leave to invite thither whom I
+            please; 3) to allow me my liberty there that any who will may come to me without let or
+            hindrance; 4) to let me go where I please and to whom I please without giving an account
+            to any; 5) to assure me you will take no more of my papers nor anything of mine without
+            my consent; 6) to treat all the servants where you are, whether you like them or no,
+            with courtesy and humanity, and to speak (if you speak at all) to them, as well as
+            others, with good nature and good manners; 7) to speak no evil of me behind my back; 8)
+            never to accuse me falsely; 9) to be extremely cautious of saying anything that is not
+            strictly true, both as to the matter and manner; and 10) to avoid all bitterness of
+            expression till you can avoid all bitterness of spirit.</p>
+         <p>These are the advices which I now give you in the fear of God and in tender love to your
+            soul. Nor can I give you a stronger proof that I am,</p>
+         <closer><signed>Your affectionate husband,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
