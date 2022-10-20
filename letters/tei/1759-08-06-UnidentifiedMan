@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To an Unidentified Man (August 6, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-08-06-ToAnUnidentifiedMan</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To an Unidentified Man (August 6, 1759)</title>
+                     <date when="1759-08-06"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="170" to="171"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: holograph; MARC, MA 1995/020 (the ms. is severely damaged, with
+                  address portion entirely missing and only a large fragment of text).</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="persx">
+                  <!-- No specific ID -->
+                  <persName>An Unidentified Man</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0000.xml"/><!-- no ID -->an Unidentified
+               Man</persName></head>
+         <opener><placeName>Everton</placeName><lb/><date when="1759-08-06">August 6, 1759</date><lb/><lb/>
+            <salute>Dear Sir,</salute>
+         </opener>
+         <p><pb n="170"/>In the <hi rend="italic">Minutes</hi> of the Conference we observe &lt;that
+            &apos;poring&gt; too much upon our inbred sin&apos; may bring &lt;us &apos;under a&gt;
+            kind of bondage&apos;,<note place="foot" n="1">See Disciplinary Minutes, <date
+                  when="1747-06-17">June 17, 1747</date>, Q. 22, 10:805–6 in this edn.</note> that
+            is, when we fix, as it were, <hi rend="italic">both</hi> eyes of the mind upon it,
+            whereas one only should be fixed upon this, and the other constantly upon Christ. One
+            with whom I was speaking a day or two ago, who seems to be entered into rest, by looking
+            at <hi rend="italic">sin alone</hi> had lost all her joy and peace, and almost her
+            faith, and was like a condemned unbeliever; while her friend (whom I j&lt;udge to&gt; be
+            higher in grace than her) only felt an ine&lt;xpress&gt;ible want and emptiness (yet
+            consistent with peace as well as with love) till she was filled with the fullness of
+            God. O tread in her steps! Be simple, little, nothing; yet be loved of God, yet a member
+            of Christ, a child of God, an heir of all his promises! <index indexName="biblical">
+               <term cRef="Ps46:10">Be still, &lt;and know that&gt; he <pb n="171"/>is God!</term>
+            </index><note place="foot" n="2">See <index indexName="biblical">
+                  <term cRef="Ps46:10">Ps. 46:10</term>
+               </index>.</note>
+            <foreign rend="italic">Obmutesce, pulvis et cinis</foreign>.<note place="foot" n="3"
+               >&apos;Be silent, dust and ashes.&apos;</note> &lt;…&gt; <foreign><index
+                  indexName="biblical">
+                  <term cRef="Matt8:26">Και γενήσεται γαλήνη ἡ μεγάλη</term>
+               </index></foreign><note place="foot" n="4">Cf. <index indexName="biblical">
+                  <term cRef="Matt8:26">Matt. 8:26</term>
+               </index>, &apos;<foreign rend="italic"><index indexName="biblical">
+                     <term cRef="Matt8:26">καὶ ἐγένετο γαλήνη μεγάλη</term>
+                  </index></foreign>&apos;; but <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName> has made it future tense: &apos;<index indexName="biblical">
+                  <term cRef="Matt8:26">and there shall be a great calm</term>
+               </index>&apos;.</note> &lt;…&gt;</p>
+         <closer/>
+      </body>
+   </text>
+</TEI>
