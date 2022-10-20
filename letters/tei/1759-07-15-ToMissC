@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Miss C— (July 15, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-07-15-ToMissC</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Miss C— (July 15, 1759)</title>
+                     <date when="1759-07-15"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="169" to="170"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Wesleyan Methodist
+                     Magazine</hi> 70 (<date when="1847">1847</date>): 766–67.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="persx">
+                  <!-- I do not know what ID to use for this -->
+                  <persName>Miss C</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers2176">
+                  <persName>Charles Wesley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0000.xml"/><!-- Unsure on ID -->Miss
+               C—</persName></head>
+         <opener><placeName>York</placeName><lb/><date when="1759-07-15">July 15, 1759</date><lb/><lb/>
+            <salute>Dear Miss C—,</salute>
+         </opener>
+         <p><pb n="169"/>Your letter gave me much satisfaction, though it was long before I received
+            it. Now I find you can speak freely to me, and as you have found the way, I hope to hear
+            from you a little oftener. In a few days I hope to be at <placeName>Leeds</placeName>.
+            Why should you not give me the pleasure of hearing from you there?</p>
+         <p>At present you are a captive of unbelief, though an unwilling captive. But I trust you
+            shall ere long know One that bringeth the prisoners out of captivity. You can say from
+            your heart,</p>
+         <p><lg>
+               <l>I would not to the foe submit,</l>
+               <l>I hate the tyrant&apos;s chain;</l>
+               <l>Bring, Lord, the prisoner from the pit,</l>
+               <l>Nor let me cry in vain.<note place="foot" n="1">Cf. <persName><ref
+                           target="/persons/pers2176.xml"/>CW</persName>, Hymn 27, st. 4, <hi
+                        rend="italic">Redemption Hymns</hi> (<date when="1747">1747</date>),
+                     39.</note></l>
+            </lg></p>
+         <p>And you will not cry in vain; only cry on, though it be weariness and pain to slothful
+            flesh and blood. If instability and ingratitude were sufficient to prevent either
+            present or future salvation, then would no child of Adam ever have been saved from the
+            foundation of the world. But these and all manner of sin are washed away by the blood of
+            the covenant. You want only to be acquainted with this to have it sprinkled upon your
+            heart. And how soon may it be? Why not now? If you have nothing to pay, leave all your
+            harmlessness, your good desires or works, all you have and are behind! Are you to be
+            saved <hi rend="italic">freely</hi>? Then be it as thou wilt!<pb n="170"/></p>
+         <p><lg>
+               <l>Freely the gift of God receive,</l>
+               <l>Pardon and peace in Jesus find.<note place="foot" n="2"><persName><ref
+                           target="/persons/pers2176.xml"/>CW</persName>, &apos;The Fifty-Fifth
+                     Chapter of Isaiah&apos;, st. 4, <hi rend="italic">HSP</hi> (<date when="1740"
+                        >1740</date>), 2; the original has &apos;Frankly&apos; in place of
+                     &apos;Freely&apos;.</note></l>
+            </lg></p>
+         <p>Away with your preparation! The Lord himself prepare your heart and then hearken
+            thereto! Away with your reasoning! Be a little child! Sink down before the Saviour of
+            sinners, the lover of <hi rend="italic">your</hi> soul! Let him have the glory over you.
+            What hinders?</p>
+         <closer>Dear Miss C—, be not reserved or fearful when you speak to,<lb/>
+            <signed>Your affectionate brother and servant,<lb/><persName>J.
+               Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
