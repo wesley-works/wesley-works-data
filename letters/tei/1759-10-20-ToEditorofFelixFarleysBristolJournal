@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Editor of Felix Farley&apos;s Bristol Journal (October 20, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI"
+               >http://syriaca.org/letters/1759-10-20-ToEditorofFelixFarleysBristolJournal</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To the Editor of Felix Farley&apos;s Bristol Journal (October
+                        20, 1759)</title>
+                     <date when="1759-10-20"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="174" to="175"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Felix Farley&apos;s
+                     Bristol Journal</hi> (<date when="1759-10-20">Oct. 20, 1759</date>). Reprinted
+                  in <hi rend="italic">London Chronicle</hi> (<date from="1759-10-25"
+                     to="1759-10-27">Oct. 25–27, 1759</date>), p. 408; and <hi rend="italic"
+                     >Universal Chronicle</hi> or <hi rend="italic">Weekly Gazette</hi> (<date
+                     when="1759-10-27">Oct. 27</date>–<date when="1759-11-03">Nov. 3, 1759</date>),
+                  p. 347.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0694">
+                  <!-- I used ID for Felix farley seeing as there is no ID for editor -->
+                  <persName>Felix Farley</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0694.xml"/>the Editor of Felix Farley&apos;s
+               Bristol Journal</persName></head>
+         <opener><placeName>Bristol</placeName><lb/><date when="1759-10-20">October 20, 1759</date><lb/><lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p><pb n="174"/>Since I came to <placeName>Bristol</placeName> I heard many terrible
+            accounts concerning the French prisoners at <placeName>Knowle</placeName>. As that
+            &apos;they were so wedged together that they had no room to breathe, that the stench of
+            the rooms where they lodged was intolerable, that their food was only fit for dogs, that
+            their meat was carrion, their bread rotten and unwholesome, and that in consequence of
+            this inhuman treatment, they died in whole shoals.&apos;<note place="foot" n="1">The
+               prison at <placeName>Knowle</placeName>, now a <placeName>Bristol</placeName> suburb
+               but then a distinct village, was utilised in the Seven Years War and
+            beyond.</note></p>
+         <p>Desiring to know the truth, I went to <placeName>Knowle</placeName> on <date
+               when="1759-10-15">Monday</date>, and was showed all the apartments there.<note
+               place="foot" n="2">See <persName><ref target="/persons/pers2180.xml"/>JW</persName>,
+                  <hi rend="italic">Journal</hi>, <date when="1759-10-15">Oct. 15, 1759</date>;
+               21:231 in this edn</note> But how was I disappointed! 1) I found they had large and
+            convenient space to walk in, if they chose it, all the day. 2) There was no stench in
+            any apartment which I was in, either below or above. They were all sweeter and cleaner
+            than any prison I have seen either in <placeName>England</placeName> or elsewhere. 3)
+            Being permitted to go into the larder, I observed the meat hanging up, two large
+            quarters of beef. It was fresh and fat, and I verily think as good as I ever desire to
+            eat. 4) A large quantity of bread lay on one side. A gentleman took up and cut one of
+            the loaves. It was made of good flour, was well-baked, and perfectly well-tasted. 5)
+            Going thence to the hospital, I found that even in this sickly season there are not
+            thirty persons dangerously ill out of twelve or thirteen hundred. 6) The hospital was
+            sweeter and cleaner throughout than any hospital I ever saw in
+               <placeName>London</placeName>. I think it my duty to declare these things, for
+            clearing the innocence and the honour of the English nation.<note place="foot" n="3"
+               >When the <hi rend="italic">London Chronicle</hi> republished this letter, it
+               explained, &apos;The following letter will give pleasure as the honour of the nation
+               is vindicated by it&apos;.</note></p>
+         <p>Yet one thing I observed with concern. A great part of these men are almost naked, and
+            winter is now coming upon them in a cold prison and a colder climate than most of them
+            have been accustomed to. But will not the humanity and generosity of the gentlemen of
+               <placeName>Bristol</placeName> prevent or relieve this distress? Did they not make a
+            notable precedent during the late war? And surely they are <index indexName="biblical">
+               <term cRef="Gal6:9">not weary of well-doing</term>
+            </index>.<note place="foot" n="4">See <index indexName="biblical">
+                  <term cRef="Gal6:9">Gal. 6:9</term>
+               </index>.</note>
+            <date when="1759-10-16">Tuesday</date> night we did a little according to our power, but
+            I shall rejoice if this be forgotten through the abundance<pb n="175"/> administered by
+            their liberality in a manner which they judge most proper. Will it not be both for the
+            honour of their city and country, for the credit of our religion, and for the glory of
+            God, who knows how to return it sevenfold into their bosom?</p>
+         <closer>I am,<lb/>
+            <signed>Your humble servant,<lb/><persName>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
