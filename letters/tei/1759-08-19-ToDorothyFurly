@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Dorothy Furly (August 19, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-08-19-ToDorothyFurly</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Dorothy Furly (August 19, 1759)</title>
+                     <date when="1759-08-19"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="171" to="172"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; Benson, <hi rend="italic">Works</hi>,
+                  16:324–25.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers0762">
+                  <persName>Dorothy Furly</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2127">
+                  <persName>Thomas Walsh</persName>
+               </person>
+               <person xml:id="pers0114">
+                  <persName>Cornelius Bastable</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person>
+                  <persName>Catherine Stockdale</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers0762.xml"/>Dorothy Furly</persName></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-08-19">August 19, 1759</date><lb/><lb/>
+            <salute>My Dear Sister,</salute>
+         </opener>
+         <p><pb n="171"/>The observing that rule might prevent abundance of mischief. I wish others
+            would observe it as well as you. <persName><ref target="/persons/pers2127.xml"/>Thomas
+               Walsh</persName> was a good and a wise man, yet there were some circumstances, not
+            commonly known, which easily account for the darkness he went through before he went to
+               paradise.<note place="foot" n="1"><persName><ref target="/persons/pers2127.xml"
+                  />Thomas Walsh</persName>&apos;s death in <date when="1759-04">Apr. 1759</date> in
+                  <placeName>Bristol</placeName> (while <persName><ref
+                     target="/persons/pers0762.xml"/>Furly</persName> was in nearby
+                  <placeName>Clifton</placeName>) was accompanied with significant suffering and
+               spiritual struggle; see <hi rend="italic">EMP</hi>, 3:258–68.</note></p>
+         <p>I hope you have <hi rend="italic">talked</hi> with <persName><ref
+                  target="/persons/pers0114.xml"/>Cornelius Bastable</persName> as well as heard him
+            preach. He is an uncommon monument of the power of grace, strengthening the
+            understanding as well as renewing the heart. For so weak a head and so bad a temper as
+            he once had I do not know among all our preachers.<note place="foot" n="2"
+                     ><persName><ref target="/persons/pers0114.xml"/>Cornelius Bastable</persName>
+               (c. <date from="1725" to="1775">1725–75</date>), apparently a native of
+                  <placeName>Middlezoy, Somerset</placeName>, began &apos;exhorting&apos; in <date
+                  when="1747">1747</date> and came to <persName><ref target="/persons/pers2180.xml"
+                  />JW</persName>&apos;s attention as a promising prospective preacher in <date
+                  when="1748-07">Sept. 1748</date>. He appears in the Minutes as a
+               &apos;probationary helper&apos; in <date when="1750">1750</date>, but did not advance
+               to the regular <seg ana="itinerancy">itinerancy</seg>, likely because he married
+                  <persName>Catherine Stockdale</persName> (<date from="1726" to="1786"
+                  >1726–86</date>) in <placeName>Cork</placeName> in <date when="1752">1752</date>
+               (see 10:205, 237 in this edn.). The couple was currently living in the
+                  <placeName>Bristol</placeName> area.</note></p>
+         <p>Probably the difference between you and others lies in words chiefly. All who expect to
+            be sanctified at all expect to be sanctified <hi rend="italic">by faith</hi>. But
+            meantime they know that faith will not be given but to them that <hi rend="italic"
+               >obey</hi>. <hi rend="italic">Remotely</hi>, therefore, the blessing depends on our
+            works, although <hi rend="italic">immediately</hi> on simple faith.</p>
+         <p>Enjoy while you may the advantage which I had once, and shall have again when God sees
+            best. I am,</p>
+         <closer><signed>Your affectionate brother,<lb/><persName>J.
+            Wesley</persName></signed></closer>
+         <postscript>
+            <p><pb n="172"/>Certainly <hi rend="italic">you</hi> may say to <hi rend="italic"
+                  >me</hi> whatever you have a mind, either by writing or speaking.</p>
+         </postscript>
+      </body>
+   </text>
+</TEI>
