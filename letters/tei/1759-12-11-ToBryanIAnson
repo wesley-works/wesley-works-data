@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To Mr. I&apos;Ans. (December 11, 1759)</title>
+            <author>Wesley, John</author>
+            <editor>Gatley, Jenna</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-07-22</date>
+            <idno type="URI">http://syriaca.org/letters/1759-12-11-ToBryanIAnson</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mr. I&apos;Ans. (December 11, 1759)</title>
+                     <date when="1759-12-11"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="181"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To Mr <persName><ref target="/persons/pers1117.xml"
+                     />I&apos;Ans</persName>. in <placeName>Bristol</placeName>&apos;. Endorsement:
+                     &apos;<placeName>London</placeName>
+                  <date when="1759-12-11">11th December. 1759</date>. Parson <persName><ref
+                        target="/persons/pers2180.xml"/>John Wesley</persName>&apos;s thanks for
+                  sending him the French Prisoners Letter of thanks for Collection on their behalfe.
+                  / Recd Mr. <persName><ref target="/persons/pers2239.xml"/>Wiggington</persName>
+                  18th Do. And inserted a paragraph of thanks in Mr. <persName><ref
+                        target="/persons/pers0694.xml"/>Felix Farley</persName>&apos;s
+                  News-Paper&apos;. Source: holograph; National Library of
+                     <placeName>Scotland</placeName>, MS. 588, no. 1292.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1117">
+                  <persName>Bryan I&apos;Anson</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="pers2239">
+                  <persName>Mr. Wiggington</persName>
+               </person>
+               <person xml:id="pers0694">
+                  <persName>Felix Farley</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person>
+                  <persName>Thomas I&apos;Anson</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1117.xml"/>Mr. I&apos;Ans.</persName><note
+               place="foot" n="1">The manuscript is possibly abbreviating the name I&apos;Anson.
+                  <persName>Thomas</persName> and <persName><ref target="/persons/pers1117.xml"
+                  />Bryan I&apos;Anson</persName>, brothers who shared a legal practice in
+                  <placeName>Westminster</placeName> and often assisted the Wesley brothers (see
+               21:308, n. 73 in this edn.), are possible recipients, though it is not clear they
+               would be in <placeName>Bristol</placeName>.</note></head>
+         <opener><placeName>London</placeName><lb/><date when="1759-12-11">December 11, 1759</date><lb/><lb/>
+            <salute>Sir,</salute>
+         </opener>
+         <p><pb n="181"/>I return you thanks for transmitting that letter to me. I am glad our
+            little service was so well accepted.<note place="foot" n="2">I.e., assistance in
+               providing winter clothing for French prisoners held in <placeName>Knowle</placeName>,
+               described in the letters of <date when="1759-10-20">Oct. 20</date> and <date
+                  when="1759-11-04">Nov. 4</date> above.</note> If I should see
+               <placeName>Bristol</placeName> again before those poor men return home, I would use
+            what interest I have in order to assist them a little farther. I am, sir,</p>
+         <closer><signed>Your most humble servant,<lb/><persName>John
+            Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
