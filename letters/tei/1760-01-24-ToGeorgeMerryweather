@@ -13,7 +13,7 @@
          <publicationStmt>
             <publisher>The Wesley Works</publisher>
             <pubPlace>Tampa, FL</pubPlace>
-            <date>2020-09-05</date>
+            <date>2022-08-25</date>
             <idno type="URI">http://syriaca.org/letters/1760-01-24-ToGeorgeMerryweather</idno>
          </publicationStmt>
          <sourceDesc>
@@ -40,12 +40,14 @@
                      <editor role="general">Maddox, Randy L.</editor>
                   </series>
                </biblStruct>
-               <bibl n="2">Address: &apos;To / <persName><ref target="/persons/pers1420.xml"/>Mr 
+               <bibl n="2">Address: &apos;To / <persName xml:id="pers1420"><ref target="/persons/pers1420.xml"/>Mr 
                   George Merryweather</persName> / In <placeName>Yarm</placeName> / <placeName>
-                  Yorkshire</placeName>&apos;. Postmark: &apos;26/IA&apos;. Charge: &apos;4&apos;. 
-                  Endorsement: &apos;<date when="1760-01">Jany 1760</date>&apos;. Source: holograph; 
-                  <placeName>Wesley&apos;s Chapel</placeName> (<placeName>London</placeName>), 
-               LDWMM 1992/410/2.</bibl>
+                  Yorkshire</placeName>&apos;. 
+               <bibl n="3">Postmark: &apos;26/IA&apos;.</bibl>
+               <bibl n="4">Charge: &apos;4&apos;.</bibl>
+               <bibl n="5">Endorsement: &apos;<date when="1760-01">Jany 1760</date>&apos;.</bibl>
+               <bibl n="6">Source: holograph; <placeName>Wesley&apos;s Chapel</placeName> 
+               (<placeName>London</placeName>), LDWMM 1992/410/2.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -65,7 +67,7 @@
                </person>
             </listPerson>
             <listPerson type="notes">
-               <person>
+               <person xml:id="persx">
                   <!--Mr. Waldy is referenced in the footnotes but no xml:id exists-->
                   <persName>Mr. Waldy</persName>
                </person>
@@ -91,13 +93,13 @@
          <p>I received yours with the bill a day or two ago. I wish you would
             everywhere recommend two books in particular—<hi rend="italic">The Christian
             Pattern</hi> and the <hi rend="italic">Primitive Physick</hi>
-            <note place="foot" n="2">I.e., <persName><ref target="persons/pers2180.xml"/>JW</persName>
+            <note place="foot" n="2">I.e., <persName><ref target="/persons/pers2180.xml"/>JW</persName>
             &apos;s abridged version of Thomas à<!--special character, accented a--> Kempis&apos;s 
             <hi rend="italic">The Imitation of Christ</hi> (Bibliography, No. 45) and his collection of 
             medical advice (Bibliography, No. 138 and Vol. 32 in this edn.).</note>. 
             Tis a great pity that any Methodist should be without them.</p>
-         <p>I wonder brother <persName><ref target="persons/pers1391"/>Mather</persName>
-            <note place="foot" n="3"><persName><ref target="persons/pers1391"/>Alexander Mather</persName> (<date from="1733" to="1800">1733–1800</date>) 
+         <p>I wonder brother <persName><ref target="/persons/pers1391.xml"/>Mather</persName>
+            <note place="foot" n="3"><persName><ref target="/persons/pers1391.xml"/>Alexander Mather</persName> (<date from="1733" to="1800">1733–1800</date>) 
             was converted under <persName><ref target="persons/pers2180.xml"/>JW</persName>&apos;s preaching in <placeName>London</placeName>in
             <date when="1754">1754</date> and became an itinerant in <date when="1757">1757</date>. 
             For more detail, see <hi rend="italic">EMP</hi>, 2:158–239; Atmore, <hi rend="italic">Memorial</hi>, 256–66; and 21:309, n. 78 in this edn.</note> 
@@ -105,7 +107,7 @@
             <placeName>Yarm</placeName><note place="foot" n="4">Perhaps 
             <persName>Mr.Waldy</persName>, a landed proprietor in <placeName>Yarm</placeName> to 
             whom <persName><ref target="persons/pers2180.xml"/>JW</persName> 
-            referred in a letter to <persName><ref target="pers1420"/>Merryweather</persName> of 
+            referred in a letter to <persName><ref target="/persons/pers1420.xml"/>Merryweather</persName> of 
             <date when="1767-12-28">Dec. 28, 1767</date>.</note> 
             has not forsaken you. <index indexName="biblical">
             <term cRef="Matt19:24">Even the rich <hi rend="italic">may</hi> enter into the kingdom</term></index>,
@@ -114,7 +116,7 @@
          <p>See that you stir up the gift of God that is in you.
             <note place="foot" n="5">See <index indexName="biblical">
             <term cRef="2Tim1:6">2 Tim. 1:6</term></index>.</note> 
-            What is our Lord’s word to you? &apos;<index indexName="biblical">
+            What is our Lord&apos;s word to <hi rend="italic">you</hi>? &apos;<index indexName="biblical">
                <term cRef="Matt8:22">Let the dead bury their dead; but follow thou
                   me!</term></index>&apos;<note place="foot" n="6"><index indexName="biblical">
             <term cRef="Matt8:22">Matt. 8:22</term></index>.</note></p>
