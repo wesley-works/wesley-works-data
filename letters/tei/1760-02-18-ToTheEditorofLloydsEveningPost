@@ -54,7 +54,7 @@
                <person xml:id="pers2180">
                   <persName>John Wesley</persName>
                </person>
-               <person>
+               <person xml:id="persx">
                   <!--No footnote is present for the recipient. 
                   Only referred to as the Editor of Lloyd's Evening Post-->
                   <persName>The Editor of Lloyd&apos;s Evening Post</persName>
@@ -71,13 +71,13 @@
    <text>
       <body><pb n="183"/>
          <head>To <persName>The Editor of <hi rend="italic">Lloyd&apos;s Evening Post</hi></persName></head>
-         <opener><placeName>Windmill Hill<note place="foot" n="7">The location of the <placeName>Foundery</placeName>.</note>[London]</placeName>
+         <opener><placeName>Windmill Hill</placeName><note place="foot" n="1">The location of the <placeName>Foundery</placeName>.</note>[<placeName>London</placeName>]
          <lb/><date when="1760-02-18">February 18, 1760</date><lb/><lb/>
             <salute>Sir,</salute>
          </opener>
          <p>On <date when="1759-12-16">Sunday, December 16</date> last, I received a £20 bank bill from an
             anonymous correspondent, who desired me to lay it out in the manner I judged best for the use 
-            of poor prisoners.<note place="foot" n="8">Probably due to publicity about <persName>
+            of poor prisoners.<note place="foot" n="2">Probably due to publicity about <persName>
             <ref target="/persons/pers2180.xml"/>JW</persName>&apos;s help offered the French prisoners 
             held in <placeName>Knowle prison</placeName> in <placeName>Bristol</placeName>, 
             described in earlier letters of <date when="1759-10-20">Oct. 20</date> and 
@@ -85,14 +85,14 @@
             <!--Is there a way to reference other letters? Only the dates of the referenced letters (1759-10-10 and 1759-11-04) were tagged-->
             I immediately employed some in whom I could confide to inquire into the circumstances of
             those confined in <placeName>WhiteChapel</placeName> and <placeName>New Prison</placeName>.
-            <note place="foot" n="9"><placeName>Whitechapel</placeName> was a debtor&apos;s prison serving 
+            <note place="foot" n="3"><placeName>Whitechapel</placeName> was a debtor&apos;s prison serving 
             <placeName>Stepney</placeName> and <placeName>Hackney</placeName>; <placeName>New Prison</placeName> 
             was located in <placeName>Clerkenwell</placeName> and held persons accused of petty or serious crimes.</note> 
             I knew the former to have very little allowance even of bread, and the latter none at all.
             Upon inquiry they found one poor woman in <placeName>Whitechapel Prison</placeName>
             very big with child and destitute of all things. At the same time I casually heard of a poor 
-            man who had been confined for nine months in the <placeName>Poultry Counter</placeName>,<note place="foot" n="10">
-            More commonly known as &apos;<placeName>Poultry Compter</placeName>&apos;, this was a sheriff ’s prison in 
+            man who had been confined for nine months in the <placeName>Poultry Counter</placeName>,<note place="foot" n="4">
+            More commonly known as &apos;<placeName>Poultry Compter</placeName>&apos;, this was a sheriff &apos;s prison in 
             <placeName>London</placeName> City.</note> while his wife and three children (whom he before maintained by his labour) 
             were almost perishing through want. Not long after, another poor woman, who had been diligent in helping others, was 
             herself thrown into <placeName>Whitechapel Prison</placeName>. The expense of discharging these three and giving them 
@@ -102,7 +102,7 @@
             thrice a week. I am therefore assured that the whole of this sum was
             laid out in real charity. And how much more noble a satisfaction must
             result from this to the generous benefactor (<index indexName="biblical"><term cRef="Eccl3:19">even supposing there
-               were no other world, supposing man to die as a beast dieth</term></index><note place="foot" n="11">
+            were no other world, supposing man to die as a beast dieth</term></index><note place="foot" n="5">
             See <index indexName="biblical"><term cRef="Eccl3:19">Eccles. 3:19</term></index>.</note>) 
             than he could receive from an embroidered suit of clothes or a piece of plate
             made in the newest fashion? Men of reason, judge!</p>
