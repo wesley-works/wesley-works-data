@@ -13,7 +13,7 @@
             <publicationStmt>
                 <publisher>The Wesley Works</publisher>
                 <pubPlace>Tampa, FL</pubPlace>
-                <date>2020-09-05</date>
+                <date>2022-09-24</date>
                 <idno type="URI">http://syriaca.org/letters/1760-03-04-ToJaneCatherineMarch</idno>
             </publicationStmt>
             <sourceDesc>
@@ -54,6 +54,21 @@
                         <persName>Jane Catherine March</persName>
                     </person>
                 </listPerson>
+                <listPerson type="notes">
+                    <person xml:id="pers0215">
+                        <persName>Mary Bosanquet</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>John Telford</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>Thomas March</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>Jane (née Lisle)</persName>
+                    </person>
+                    <!--A lot of people with no persID, I'm pretty sure they don't have one but a double check would be nice-->
+                </listPerson>
             </particDesc>
         </profileDesc>
         <revisionDesc>
@@ -64,14 +79,30 @@
     </teiHeader>
     <text>
         <body>
-            <head>To <persName xml:id="pers1358"> <ref target="/persons/pers1358.xml"/>
-                Jane Catherine March</persName><note place="foot" n="1"></note></head>
+            <head>To <persName><ref target="/persons/pers1358.xml"/>
+                Jane Catherine March</persName><note place="foot" n="1">This is the first of a sequence of 
+                letters in the <hi rend="italic">Methodist Magazine</hi> for <date when="1971">1791</date> attributed to
+                <persName><ref target="/persons/pers2180.xml"/>John Wesley</persName> and addressed &apos;
+                To a Member of the Society&apos;, running from <date from="1760" to="1777">1760 to 1777</date>. <persName>Telford</persName>
+                <!--Telford is tagged as a person but has no id-->
+                gathered a convincing array of evidence pointing to “<persName xml:id="1358"><ref target="/persons/pers1358.xml"/>Miss March</persName>” as the recipient of these
+                letters (Letters, 4:85). <persName><ref target="/persons/pers1358.xml"/>Jane Catherine March</persName> 
+                (c. <date from="1744" to="1820">1744–1820</date>) was the daughter of prosperous
+                merchant <persName>Thomas March</persName> (d.<date when="1754">1754</date>) and his wife 
+                <persName>Jane (née Lisle)</persName> of <placeName>St. Peter Le Poer</placeName> parish
+                <!--Both Thomas March and his wife, Jane (née Lisle) are tagged as people but have no id-->
+                in <placeName>London</placeName>. The teen-age <persName xml:id=pers"1358"><ref target="/persons/pers1358.xml"/>March</persName> 
+                had recently become connected to some London Methodist,
+                likely through friendship with <persName><ref target="/persons/pers0215.xml"/>Mary Bosanquet</persName>. 
+                <persName><ref target="/persons/pers1358.xml"/>Miss March</persName> inherited a significant family
+                estate, and never married. She eventually settled in <placeName>Bristol</placeName>, where she was buried <date when="1820-02-26">Feb. 26, 1820</date>.</note></head>
             <opener><placeName>Wednesbury</placeName><lb/><date when="1760-03-04">March 4, 1760</date><lb/><lb/>
                 <!--no salute present-->
             </opener>
             <p>Certainly the more freedom you use, the more advantage you will
-                find. But at the same time <index indexname="biblical"><term cRef="Jas1:17">it will be needful continually to remem-
-                <pb/>ber from whom every good and perfect gift cometh</term></index>.<note place="foot" n="2">
+                find. But at the same time <index indexname="biblical"><term cRef="Jas1:17">it 
+                will be needful continually to remem-<pb n="185"/>ber from whom every good and 
+                perfect gift cometh</term></index>.<note place="foot" n="2">
                 See <index indexname="biblical"><term cRef="Jas1:17">Jas. 1:17</term></index>.</note>
                 If he blesses our intercourse with each other, then we shall never 
                 repent of the labour.</p>
@@ -103,7 +134,7 @@
                 </p>
             <closer>May he who loves you fill you with his pure love! I am,<lb/>
                     <!--Don't know if this is supposed to all be included as a closer-->
-                <signed>Your affectionate brother,<lb/><persName>John Wesley</persName></signed></closer>
+                <signed>Your affectionate brother,<lb/><persName/>John Wesley</persName></signed></closer>
         </body>
     </text>
 </TEI>
