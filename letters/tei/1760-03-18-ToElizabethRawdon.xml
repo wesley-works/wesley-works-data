@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To Elizabeth (Hastings) Rawdon, Countess of Moira (March 18, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-10-11</date>
+            <idno type="URI">http://syriaca.org/letters/1760-03-18-ToElizabethRawdon</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Elizabeth (Hastings) Rawdon, Countess of Moira (March 18, 1760)</title>
+                     <date when="1760-03-18"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="186" to="188"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Arminian Magazine</hi> 
+               6 (<date when="1783">1783</date>): 102–4.</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1684">
+                  <persName>Elizabeth (Hastings) Rawdon</persName>
+               </person>
+            </listPerson>
+            <listPerson type="notes">
+               <person xml:id="pers0964">
+                  <persName>Selina (Shirley) Hastings</persName>
+               </person>
+               <person xml:id="pers1685">
+                  <persName>John Rawdon</persName>
+               </person>
+               <person xml:id="persx">
+                  <persName>Lawrence Shirley</persName>
+                  <!--Should titles be going here? Lawrence Shirley, Fourth Earl Ferrers. In addition no pers number exists for this person-->
+               </person>
+               <person xml:id="pers0963">
+                  <persName>Francis Hastings</persName>
+               </person>
+               <!--Entry in google sheets for Francis is now blank, looks like a misedit-->
+               <person xml:id="pers0177">
+                  <persName>Mary Bishop</persName>
+               </person>
+               <!--Not sure if this is the correct persID, only Mary Bishop in the google sheet-->
+               <person>
+                  <persName>Thomas Parnell</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1684.xml"/>
+            Elizabeth (Hastings) Rawdon, <roleName type="nobility">Countess of Moira</roleName></persName>
+            <note place="foot" n="1"><persName xml:id="1684"><ref target="/persons/pers1684.xml"/>Elizabeth (Hastings) Rawdon</persName> 
+            (<date from="1731" to="1808">1731–1808</date>) was the oldest daughter of <persName><ref target="/persons/pers0964.xml"/>Selina, <roleName type="nobility">Countess
+            of Huntingdon</roleName></persName>, and the third wife of <persName><ref target="/persons/pers1685.xml"/>John Rawdon</persName>, 
+            having married him in <date when="1752">1752</date>. The Rawdons <!--do I tag this?-->
+            hosted <persName><ref target="/persons/pers2180.xml"/>JW</persName> 
+            at <placeName>Moira</placeName> (13 miles southwest of <placeName>Belfast</placeName>), 
+            and he preached in front of their home on <date when="1760-05-01">May 1</date> <!--is this correct?-->
+            and <date when="1760-05-12">12, 1760</date> (see <hi rend="italic">Journal</hi>, 21:252, 260 in this edn.). 
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName> 
+            refers to his host in the <hi rend="italic">Journal</hi> account as the Earl of Moira<!--should this be tagged?-->, 
+            a title not awarded until <date when="1761">1761</date> but true by the time that this installment
+            of the <hi rend="italic">Journal</hi> was published.</note></head>
+         <opener><placeName>Liverpool</placeName><lb/><date when="1760-03-18">March 18, 1760</date><lb/><lb/>
+            <salute>My Lady,</salute>
+         </opener>
+         <p>It was impossible to see the distress into which your Ladyship
+            was thrown by the late unhappy affair without bearing a part of it,<pb n="187"/>
+            without sympathising with you.<note place="foot" n="2">A cousin of 
+            <persName><ref target="/persons/pers1684.xml"/>Lady Rawdon</persName>, 
+            <persName>Lawrence Shirley, <roleName type="nobility">Fourth Earl Ferrers</roleName></persName>, had shot and killed
+            the steward of his family estate on <date when="1760-01-18">Jan. 18, 1760</date>. 
+            The case was now heading towards trial in the House of Lords, at which 
+            <persName><roleName type="nobility">Earl</roleName> Ferrers</persName> would be convicted, despite his plea of insanity. 
+            He was executed on <date when="1760-05-05">May 5, 1760</date>.</note> 
+            But may we not see God therein? May we not both hear and understand his voice? 
+            We must allow it is generally &apos;<index indexName="biblical"><term cRef="1Kgs19:12">small 
+            and still</term></index>&apos;,<note where="foot" n="3"><index indexName="biblical">
+            <term cRef="1Kgs19:12">1 Kgs. 19:12</term></index></note> yet he speaks sometimes
+            in the whirlwind. Permit me to speak to your Ladyship with all freedom, not as to a person of 
+            quality, but as to a creature whom the Almighty made for himself and one that is in a few days 
+            to appear before him</p>
+         <p>You <hi rend="italic">were</hi> not only a nominal but a real Christian. <index indexName="biblical">
+            <term cRef="Heb6:5">You <hi rend="italic"> tasted</hi> of the powers of the world to come</term>
+            </index>.<note where="foot" n="4">See <index indexName="biblical">
+            <term cRef="Heb6:5">Heb. 6:5</term></index>.</note> You knew God the Father had
+            accepted you through his eternal Son, and <index indexName="biblical">
+            <term cRef="Rom8:16">God the Spirit bore witness with your spirit that you were a child of God</term>
+            </index>.<note where="foot" n="5">See <index indexName="biblical"><term cRef="Rom8:16">Rom. 8:16</term></index>.</note></p>
+         <p><index indexName="biblical"><term cRef="Luke10:30">But you fell among thieves</term></index>,
+            <note where="foot" n="6">See <index indexName="biblical"><term cRef="Luke10:30">Luke 10:30</term></index>.</note> 
+            and such as were peculiarly qualified to rob you of your God. Two of these in particular were 
+            sensible, learned, well-bred, well-natured, moral men. These did not assault you in a rough, 
+            abrupt, offensive manner. No, you would then have armed yourself against them, and have repelled 
+            all their attacks. But by soft, delicate, unobserved touches, by pleasing strokes of raillery, 
+            by insinuations rather than surly arguments, they by little and little sapped the foundation of 
+            your faith, perhaps not only of your <hi rend="italic">living</hi> faith, <index indexName="biblical">
+            <term cRef="Heb11:1">your &apos;evidence of things not seen&apos;</term></index>,<note where="foot" n="7">
+            See <index indexName="biblical"><term cRef="Heb11:1">Heb. 11:1</term></index>.</note> but even of
+            your <hi rend="italic">notional</hi>. It is well if they left you so much as an assent to the
+            Bible or a belief that Christ is God over all!<note where="foot" n="8">One of the men 
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName> may be referring to 
+            is <persName><ref target="/persons/pers1684.xml"/>Elizabeth</persName>&apos;s brother, 
+            <persName><ref target="/persons/pers0963.xml"/>Francis Hastings</persName> 
+            (<date from="1729" to="1789">1729–89</date>), who become Earl of Huntingdon in <date when="1749">1749</date>. 
+            Francis spent the early <date when="1750">1750s</date> in <placeName>Europe</placeName>—particularly
+            in <placeName>France</placeName>, where he was influenced by deistic thinkers. Cf. 
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s comments on 
+            <persName><ref target="/persons/pers0963.xml"/>Francis</persName> 
+            in his letter to <persName><ref target="/persons/pers0177.xml"/>Mary Bishop</persName>, 
+            <date when="1778-02-07">Feb. 7, 1778</date>. </note> And what was the consequence of this? Did 
+            not your love of God grow cold? Did not you &apos;measure back your steps to earth again&apos;?
+            <note where="foot" n="9">Cf. <persName>Thomas Parnell</persName>, &apos;The Hermit&apos;, l. 227; 
+            retained in <persName><ref target="/persons/pers2180.xml"/>JW</persName>&apos;s abridged form in MSP
+            (<date when="1744">1744</date>), 1:275.</note> Did not your love of the world revive, even of 
+            those poor, low trifles, which in your very childhood you utterly despised?</p>
+         <p>Where are you now? Full of faith? Looking into the holiest, and
+            seeing him that is invisible? Does your heart now glow with love to <pb n="188"/>him who is daily pouring 
+            his benefits upon you? Do you now even desire it? Do you now say (as you did almost twenty years 
+            ago),
+            <lg>
+               <l>Keep me dead to all below,</l>
+               <l>Only Christ resolved to know;</l>
+               <l>Firm, and disengaged, and free,</l>
+               <l>Seeking all my bliss in thee?<note place="foot" n="10">CW, &apos;Hymn on <index indexName="biblical">
+               <term cRef="John16:24">John 16:24</term></index>&apos;, st. 4, HSP (<date when="1739">1739</date>), 220.</note></l>
+            </lg>
+            Is your taste now for heavenly things? <index indexName="biblical"><term cRef="2Tim3:4">Are not 
+            you a lover of pleasure more than a lover of God</term></index>? <note where="foot" n="11">
+            See <index indexName="biblical"><term cRef="Luke10:30">2 Tim. 3:4</term></index>.</note> 
+            And oh what pleasure! What is the pleasure of visiting, of modern conversation? Is there any 
+            more reason than religion in it? I wonder what rational appetite does it gratify? Setting religion 
+            quite out of the question, I cannot conceive how a woman of sense can—<hi rend="italic">relish</hi>, 
+            should I say? No, but—<hi rend="italic">suffer</hi> so insipid an entertainment.</p>
+         <p>Oh that the time past may suffice! Is it now not high time that you should awake out of sleep? 
+            Now God calls aloud! My dear Lady, <index indexName="biblical"><term cRef="John5:25">
+            now hear the voice of the Son of God and live</term></index>!<note where="foot" n="12">
+            See <index indexName="biblical"><term cRef="John5:25">John 5:25</term></index></note> 
+            The trouble in which your tender parent is now involved may restore all that reverence for her 
+            which could not but be a little impaired while you supposed she was &apos;<index indexName="biblical">
+            <term cRef="Eccl7:16">righteous over-much</term></index>&apos;.
+            <note where="foot" n="13">See <index indexName="biblical"><term cRef="Eccl7:16">Eccl. 7:16</term></index></note> 
+            Oh how admirably does God lay hold of and &apos;<index indexName="biblical">
+            <term cRef="Rev3:2">strengthen the things that remain</term></index>&apos;
+            <note where="foot" n="14">See <index indexName="biblical"><term cRef="Rev3:2">Rev. 3:2</term></index></note> 
+            in you—your gratitude, your humane temper, your generosity, your
+            filial tenderness! And why is this but to improve every right temper,
+            to free you from all that is irrational or unholy; to make you all that
+            you <hi rend="italic">were</hi>, yea, all that you <hi rend="italic">should</hi> be; 
+            to restore you to the whole image of God?</p>
+         <closer>I am, my Lady,<lb/>
+            <signed>Yours, etc.,<lb/><persName>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
