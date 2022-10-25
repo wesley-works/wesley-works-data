@@ -40,7 +40,7 @@
                      <editor role="general">Maddox, Randy L.</editor>
                   </series>
                </biblStruct>
-               <bibl n="2">Source: holograph; <placeName>Toronto</placeName>, <placeName>United Church of Canada Archives</placeName>, 97.002C,
+               <bibl n="2">Source: holograph; <placeName>Toronto</placeName>, United Church of Canada Archives, 97.002C,
                   3-3 (address portion missing).</bibl>
             </listBibl>
          </sourceDesc>
@@ -56,7 +56,7 @@
                </person>
             </listPerson>
             <listPerson type="mentions">
-               <person>
+               <person xml:id="persx">
                   <persName>Mr. Dodd</persName>
                   <!--No Mr. Dodd exists in Person Lists. There's a Dr. Dodd(xml:id=pers0598) but this could still be referencing Dr. Dodd.-->
                </person>
@@ -71,7 +71,7 @@
    </teiHeader>
    <text>
       <body><pb n="184"/>
-         <head>To <persName> <ref target="/persons/pers0763.xml"/>
+         <head>To <persName><ref target="/persons/pers0763.xml"/>
             Rev. Samuel Furly</persName></head>
          <opener><placeName>London</placeName><lb/><date when="1760-02-25">February 25, 1760</date><lb/><lb/>
             <salute>Dear Sammy,</salute>
