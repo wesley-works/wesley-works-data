@@ -41,8 +41,8 @@
                      <editor role="general">Maddox, Randy L.</editor>
                   </series>
                </biblStruct>
-               <bibl n="2">Endorsement: &apos;Revd Mr <persName><ref target="/persons/pers2180.xml">John Wesley</persName> / <placename>Manchester</placename> <date when="1760-03-18">18 March 1760</date>&apos;.
-                  Source: holograph; Bridwell Library (SMU), address portion missing.</bibl>
+               <bibl n="2">Endorsement: &apos;Revd Mr <persName><ref target="/persons/pers2180.xml">John Wesley</persName> / <placename>Manchester</placename> <date when="1760-03-18">18 March 1760</date>&apos;.</bibl>
+               <bibl n="3">Source: holograph; Bridwell Library (SMU), address portion missing.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -52,12 +52,12 @@
                <person xml:id="pers2180">
                   <persName>John Wesley</persName>
                </person>
-               <person>
+               <person xml:id="persx">
                   <persName>Unidentified Man</persName>
                </person>
             </listPerson>
             <listPerson type="mentions">
-               <person>
+               <person xml:id="persx">
                   <persName>James Vine</persName>
                </person>
                <person xml:id="pers0788">
@@ -69,11 +69,11 @@
                <person xml:id="pers0179">
                   <persName>Ebenezer Blackwell</persName>
                </person>
-               <person>
+               <person xml:id="persx">
                   <persName>Thomas Jackson</persName>
                   <!--I'm not sure it's correct to list Thomas Jackson as he is a source mentioned in footnote 1-->
                </person>
-               <person>
+               <person xml:id="persx">
                   <persName>Telford</persName>
                   <!--I'm not sure it's correct to list Telford as he is a editor mentioned in footnote 1-->
                </person>
@@ -88,17 +88,20 @@
    </teiHeader>
    <text>
       <body>
-         <head>To <persName>
-            an Unidentified Man</persName><note place="foot" n="1">Although <persName>Thomas Jackson</persName> 
-            listed the recipient of this letter as <persName><ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName> in
-            his editions of <persName><ref target="/persons/pers2180.xml"/>JW</persname>&apos;s Works 
-            (probably because it refers to <placename>Lewisham</placename> where <persName><ref target="/persons/pers0179.xml"/>Blackwell</persname> lived),
-            <persName>Telford</persName> pointed out that it is not in the more familial style in which 
-            <persName><ref target="/persons/pers2180.xml"/>JW</persName> typically wrote to
-            <persName><ref target="/persons/pers0179.xml"/>Blackwell</persName>. <persName>Telford</persName> 
-            suggested that the letter was probably addressed to someone in authority in
-            the <placeName>Excise Office</placeName> whom <persName><ref target="/persons/pers2180.xml"/>JW</persName> 
-            met at <persName><ref target="/persons/pers0179.xml"/>Mr. Blackwell</persName>&apos;s at <placeName>Lewisham</placeName> (Letters, 4:86).</note></head>
+         <head>To <persName>an Unidentified Man</persName><note place="foot" n="1">
+            Although <persName>Thomas Jackson</persName> listed the recipient of this 
+            letter as <persName><ref target="/persons/pers0179.xml"/>Ebenezer Blackwell</persName> 
+            in his editions of <persName><ref target="/persons/pers2180.xml"/>JW</persname>&apos;s 
+            Works (probably because it refers to <placename>Lewisham</placename> where <persName>
+            <ref target="/persons/pers0179.xml"/>Blackwell</persname> lived), <persName>Telford</persName> 
+            pointed out that it is not in the more familial style in which <persName>
+            <ref target="/persons/pers2180.xml"/>JW</persName> typically wrote to
+            <persName><ref target="/persons/pers0179.xml"/>Blackwell</persName>. 
+            <persName>Telford</persName> suggested that the letter was probably addressed 
+            to someone in authority in the <placeName>Excise Office</placeName> whom 
+            <persName><ref target="/persons/pers2180.xml"/>JW</persName> 
+            met at <persName><ref target="/persons/pers0179.xml"/>Mr. Blackwell</persName>&apos;s 
+            at <placeName>Lewisham</placeName> (Letters, 4:86).</note></head>
          <opener><placeName>Manchester</placeName><lb/><date when="1760-03-17">March 17, 1760</date><lb/><lb/>
             <salute>Sir,</salute>
          </opener>
