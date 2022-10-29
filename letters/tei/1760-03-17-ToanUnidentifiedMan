@@ -41,8 +41,8 @@
                      <editor role="general">Maddox, Randy L.</editor>
                   </series>
                </biblStruct>
-               <bibl n="2">Endorsement: &apos;Revd Mr <persName><ref target="/persons/pers2180.xml">John Wesley</persName> / <placename>Manchester</placename> <date when="1760-03-18">18 March 1760</date>&apos;.</bibl>
-               <bibl n="3">Source: holograph; Bridwell Library (SMU), address portion missing.</bibl>
+               <bibl n="2">Endorsement: &apos;Revd Mr <persName><ref target="/persons/pers2180.xml">John Wesley</persName> / <placename>Manchester</placename> <date when="1760-03-18">18 March 1760</date>&apos;. 
+                           Source: holograph; Bridwell Library (SMU), address portion missing.</bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
@@ -52,12 +52,12 @@
                <person xml:id="pers2180">
                   <persName>John Wesley</persName>
                </person>
-               <person xml:id="persx">
+               <person>
                   <persName>Unidentified Man</persName>
                </person>
             </listPerson>
             <listPerson type="mentions">
-               <person xml:id="persx">
+               <person>
                   <persName>James Vine</persName>
                </person>
                <person xml:id="pers0788">
@@ -69,11 +69,11 @@
                <person xml:id="pers0179">
                   <persName>Ebenezer Blackwell</persName>
                </person>
-               <person xml:id="persx">
+               <person>
                   <persName>Thomas Jackson</persName>
                   <!--I'm not sure it's correct to list Thomas Jackson as he is a source mentioned in footnote 1-->
                </person>
-               <person xml:id="persx">
+               <person>
                   <persName>Telford</persName>
                   <!--I'm not sure it's correct to list Telford as he is a editor mentioned in footnote 1-->
                </person>
