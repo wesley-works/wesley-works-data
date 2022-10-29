@@ -58,16 +58,16 @@
                     <person xml:id="pers0215">
                         <persName>Mary Bosanquet</persName>
                     </person>
-                    <person xml:id="persx">
+                    <person>
                         <persName>John Telford</persName>
                     </person>
-                    <person xml:id="persx">
+                    <person>
                         <persName>Thomas March</persName>
                     </person>
-                    <person xml:id="persx">
+                    <person>
                         <persName>Jane (née Lisle)</persName>
                     </person>
-                    <!--A lot of people with no persID, I'm pretty sure they don't have one but a double check would be nice-->
+                    <!--A lot of people with no persID, I'm pretty sure they don't have one but a double check would be great-->
                 </listPerson>
             </particDesc>
         </profileDesc>
