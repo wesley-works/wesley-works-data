@@ -41,13 +41,13 @@
                   </series>
                </biblStruct>
                <bibl n="2">Address: &apos;To / <persName xml:id="pers1420"><ref target="/persons/pers1420.xml"/>Mr 
-                  George Merryweather</persName> / In <placeName>Yarm</placeName> / <placeName>
-                  Yorkshire</placeName>&apos;. 
-               <bibl n="3">Postmark: &apos;26/IA&apos;.</bibl>
-               <bibl n="4">Charge: &apos;4&apos;.</bibl>
-               <bibl n="5">Endorsement: &apos;<date when="1760-01">Jany 1760</date>&apos;.</bibl>
-               <bibl n="6">Source: holograph; <placeName>Wesley&apos;s Chapel</placeName> 
-               (<placeName>London</placeName>), LDWMM 1992/410/2.</bibl>
+                              George Merryweather</persName> / In <placeName>Yarm</placeName> / <placeName>Yorkshire</placeName>&apos;. 
+                           Postmark: &apos;26/IA&apos;. 
+                           Charge: &apos;4&apos;. 
+                           Endorsement: &apos;<date when="1760-01">Jany 1760</date>&apos;. 
+                           Source: holograph; <placeName>Wesley&apos;s Chapel</placeName> 
+                              (<placeName>London</placeName>), LDWMM 1992/410/2.
+                           </bibl>
             </listBibl>
          </sourceDesc>
       </fileDesc>
