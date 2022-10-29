@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To Mary (Goldhawk/Vazeille) Welsey (March 23, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-10-20</date>
+            <idno type="URI">http://syriaca.org/letters/1760-03-23-ToMaryWesley</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Mary (Goldhawk/Vazeille) Welsey (March 23, 1760)</title>
+                     <date when="1760-03-23"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="189"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Address: &apos;To / Mrs Wesley / At the Foundery / <placeName>London</placeName>&apos;. 
+                           Postmarks: &apos;29/MR&apos; and &apos;WARR / INGTON&apos;. 
+                           Charge: &apos;4&apos;. 
+                           Source: holograph; MARC, MAM <persName xml:id="pers2180"> <ref target="/persons/pers2180.xml"/>>JW</persName> 5/61A.
+                           </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers2091">
+                  <persName>Mary (Goldhawk/Vazeille) Welsey</persName>
+               </person>
+            </listPerson>
+            <listPerson type="mentions">
+               <person xml:id="mentionspers2092">
+                  <persName>Noah Vazeille</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers2091.xml"/>
+         Mary (Goldhawk/Vazeille) Wesley</persName></head>
+         <opener><placeName>Liverpool</placeName><lb/><date when="1760-03-23">March 23, 1760</date><lb/><lb/>
+         <!--No salute present-->
+         </opener>
+         <p>Poor <persName><ref target="/persons/pers2091.xml"/>Molly</persName>! 
+            Could you not hold out a little longer; not one
+            month, not twenty days? Have you found out a pretence already
+            for talking in the old strain? A thin one indeed. But, such as it is,
+            it may serve the turn for want of a better. &apos;You have taken a bed to
+            pieces. And you want to put it in my study. And I do not tell you
+            whether you may or no&apos;! Truly I cannot look upon this whole affair
+            as any other than a pretence. For what need had you to take the bed
+            in pieces at all? And what need was there (if it was taken in pieces)
+            that it should lie just in the one little room which I have, when you
+            have four rooms to yourself ?</p>
+         <p>Alas! That to this hour you should neither know your duty nor
+            be willing to learn it! Indeed, if you were a wise [woman], whether
+            a good woman or not, you would long since have given me a <hi rend="italic">carte
+            blanche</hi>.<note where="foot" n="1">Orig. &apos;Chart Blanche&apos;; indicating full freedom or approval.</note> 
+            You would have said, &apos;Tell me what to do, and I will do it.
+            Tell me what to avoid, and I will avoid it. I promised to <hi rend="italic">obey</hi> you,
+            and I will keep my word. Bid me do <hi rend="italic">anything</hi>, <hi rend="italic">everything</hi>. In whatever
+            is not sinful, I <hi rend="italic">obey</hi>. You <hi rend="italic">direct</hi>, I will follow the direction.&apos;</p>
+         <p>This it had been your wisdom to have done long ago, instead of
+            squabbling for almost these ten years.<note where="foot" n="2">They were married in <date when="1751-02">February 1751</date>. 
+            This comment implies that they had been at odds from the beginning in their marriage, though their 
+            early correspondence does not reveal this.</note> This it is both your wisdom
+            and your duty to do now, and certainly better late than never. This
+            must be your indispensable duty, till 1) I am an adulterer, 2) you can
+            prove it. Till then I have the same right to claim obedience from you
+            as <hi rend="italic">you</hi> have to claim it from <persName><ref target="/persons/pers2092.xml"/>Noah Vazeille</persName>.
+            <note where="foot" n="3">Her son by her first marriage, now 13 years old.</note> Consequently every act
+            of disobedience is an act of rebellion against God and the King, as
+            well as against,</p>
+         <closer><!--no closer exists-->
+            <signed>Your ((affectionate<note where="foot" n="4">The word &apos;affectionate&apos; has been very deliberately scored through in the ms.</note>)) husband,<lb/><persName><ref target="/persons/pers2180.xml"/>John Wesley</persName></signed></closer>
+      </body>
+   </text>
+</TEI>
