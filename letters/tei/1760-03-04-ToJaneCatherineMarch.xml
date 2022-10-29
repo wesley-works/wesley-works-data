@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc> 
+            <titleStmt>
+                <title>To Jane Catherine March (March 4, 1760)</title>
+                <author>Wesley, John</author>
+                <editor>Chow Quan, Christian, Andrew</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>The Wesley Works</publisher>
+                <pubPlace>Tampa, FL</pubPlace>
+                <date>2022-09-24</date>
+                <idno type="URI">http://syriaca.org/letters/1760-03-04-ToJaneCatherineMarch</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <listBibl>
+                    <biblStruct>
+                        <analytic>
+                            <title level="a">To Jane Catherine March (March 4, 1760)</title>
+                            <date when="1760-03-04"/>
+                        </analytic>
+                        <monogr>
+                            <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                                1756-1765</title>
+                            <editor role="volume">Campbell, Ted A.</editor>
+                            <imprint>
+                                <publisher>Abingdon Press</publisher>
+                                <pubPlace>Nashville, TN</pubPlace>
+                                <date when="2015-11-03">2015-11-03</date>
+                                <biblScope unit="volume" n="27"/>
+                                <biblScope unit="page" from="184" to="185"/>
+                            </imprint>
+                        </monogr>
+                        <series>
+                            <title level="s">The Works of John Wesley</title>
+                            <editor role="general">Maddox, Randy L.</editor>
+                        </series>
+                    </biblStruct>
+                    <bibl n="2">published transcription; <hi rend="italic">Methodist Magazine</hi> 22 (<date when="1799">1799</date><!--is this correct, to put the date(year) for these references?-->): 47-48.</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <particDesc>
+                <listPerson type="correspondents">
+                    <person xml:id="pers2180">
+                        <persName>John Wesley</persName>
+                    </person>
+                    <person xml:id="pers1358">
+                        <persName>Jane Catherine March</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="notes">
+                    <person xml:id="pers0215">
+                        <persName>Mary Bosanquet</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>John Telford</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>Thomas March</persName>
+                    </person>
+                    <person xml:id="persx">
+                        <persName>Jane (née Lisle)</persName>
+                    </person>
+                    <!--A lot of people with no persID, I'm pretty sure they don't have one but a double check would be nice-->
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <listChange>
+                <change when="2022-01-01">note about revisions made</change>
+            </listChange>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <head>To <persName><ref target="/persons/pers1358.xml"/>
+                Jane Catherine March</persName><note place="foot" n="1">This is the first of a sequence of 
+                letters in the <hi rend="italic">Methodist Magazine</hi> for <date when="1971">1791</date> attributed to
+                <persName><ref target="/persons/pers2180.xml"/>John Wesley</persName> and addressed &apos;
+                To a Member of the Society&apos;, running from <date from="1760" to="1777">1760 to 1777</date>. <persName>Telford</persName>
+                <!--Telford is tagged as a person but has no id-->
+                gathered a convincing array of evidence pointing to “<persName xml:id="1358"><ref target="/persons/pers1358.xml"/>Miss March</persName>” as the recipient of these
+                letters (Letters, 4:85). <persName><ref target="/persons/pers1358.xml"/>Jane Catherine March</persName> 
+                (c. <date from="1744" to="1820">1744–1820</date>) was the daughter of prosperous
+                merchant <persName>Thomas March</persName> (d.<date when="1754">1754</date>) and his wife 
+                <persName>Jane (née Lisle)</persName> of <placeName>St. Peter Le Poer</placeName> parish
+                <!--Both Thomas March and his wife, Jane (née Lisle) are tagged as people but have no id-->
+                in <placeName>London</placeName>. The teen-age <persName xml:id=pers"1358"><ref target="/persons/pers1358.xml"/>March</persName> 
+                had recently become connected to some London Methodist,
+                likely through friendship with <persName><ref target="/persons/pers0215.xml"/>Mary Bosanquet</persName>. 
+                <persName><ref target="/persons/pers1358.xml"/>Miss March</persName> inherited a significant family
+                estate, and never married. She eventually settled in <placeName>Bristol</placeName>, where she was buried <date when="1820-02-26">Feb. 26, 1820</date>.</note></head>
+            <opener><placeName>Wednesbury</placeName><lb/><date when="1760-03-04">March 4, 1760</date><lb/><lb/>
+                <!--no salute present-->
+            </opener>
+            <p>Certainly the more freedom you use, the more advantage you will
+                find. But at the same time <index indexname="biblical"><term cRef="Jas1:17">it 
+                will be needful continually to remem-<pb n="185"/>ber from whom every good and 
+                perfect gift cometh</term></index>.<note place="foot" n="2">
+                See <index indexname="biblical"><term cRef="Jas1:17">Jas. 1:17</term></index>.</note>
+                If he blesses our intercourse with each other, then we shall never 
+                repent of the labour.</p>
+            <p>It is a blessing indeed when God uncovers our hearts and clearly
+                shows us what spirit we are of. But there is no manner of necessity
+                that this self-knowledge should make us <hi rend="italic">miserable</hi>. Certainly the
+                highest degree of it is well consistent both with peace and joy in the
+                Holy Ghost. Therefore how deeply soever you may be convinced of
+                pride, self-will, peevishness, or any other inbred sin, see that you
+                do not let go that confidence whereby you may still rejoice in God
+                your Saviour. Some, indeed, have been quite unhappy though they
+                retained their faith, through desire on the one hand and conviction
+                on the other. But that is nothing to you; you need never give up
+                anything which you have already received. You will not, if you keep
+                close to that:
+                <lg>
+                    <l>For this my <hi rend="italic">vehement</hi> soul <hi rend="italic">stands still</hi>;</l>
+                    <l>Restless, <hi rend="italic">resigned</hi>, for this I wait.
+                    <note place="foot" n="3">CW, &apos;The Just Shall Live By Faith&apos;, 
+                    st. 19, HSP (<date when="1740">1740</date>), 164; emphasis added by JW.</note></l></lg>
+                We have a fuller, clearer knowledge of our own members than of
+                those belonging to other societies, and may therefore, without any
+                culpable partiality, have a better opinion of them.
+            </p>
+            <p>It is a great thing to spend all our time to the glory of God. But
+                you need not be scrupulous as to the precise time of reading and
+                praying; I mean, as to the dividing it between one and the other. A
+                few minutes one way or the other are of no great importance.
+                </p>
+            <closer>May he who loves you fill you with his pure love! I am,<lb/>
+                    <!--Don't know if this is supposed to all be included as a closer-->
+                <signed>Your affectionate brother,<lb/><persName/>John Wesley</persName></signed></closer>
+        </body>
+    </text>
+</TEI>
