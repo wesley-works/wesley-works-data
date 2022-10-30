@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To Jane Catherine March (March 29, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-10-30</date>
+            <idno type="URI">http://syriaca.org/letters/1760-03-29-ToJaneCatherineMarch</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Jane Catherine March (March 29, 1760)</title>
+                     <date when="1760-03-29"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" n="190"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Methodist Magazine</hi> 
+                           22 (<date when="1799">1799</date>): 48.
+                           </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1358">
+                  <persName>Jane Catherine March</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1358.xml"/>Jane Catherine March</persName></head>
+         <opener><placeName>Liverpool</placeName><lb/><date when="1760-03-29">March 29, 1760</date><lb/><lb/>
+         <!--No salute present-->
+         </opener>
+         <p>Having a little longer reprieve, I snatch the opportunity of writing
+            a few lines before we embark.<note where="foot" n="1">Wesley&apos;s <hi rend=:"italic">Journal</hi> 
+            for this period indicates that the ship on which he had planned to sail to Dublin on 
+            <date when="1760-03-29">Mar. 29</date> had been delayed by fog, so they postponed their 
+            departure until the next day; see 21:249 in this edn.</note> Prayer is certainly the grand
+            <!--date in note was assumed to be the day of writing. Also should the 21:249 be tagged?-->
+            means of drawing near to God, and all others are helpful to us only
+            so far as they are mixed with or prepare us for this. The comfort of
+            it may be taken away by wandering thoughts, but not the benefit.
+            Violently to fight against these is not the best and speediest way to
+            conquer them, but rather humbly and calmly to ask and wait for his
+            help, who will bruise Satan under your feet.<note where="foot" n="2">
+            See <index indexName="biblical"><term cRef="Gen3:15">Gen. 3:15</term></index>; 
+            <index indexName="biblical"><term cRef="Rom16:20">Rom. 16:20</term></index>.</note> 
+            <!--Did not directly tag biblical allusion as it is an amalgamation of references-->
+            You may undoubtedly remain in peace and joy until you are perfected in love. You need
+            neither enter into a dispute when persons speak wrong, nor yet betray
+            the truth; there is a middle way. You may simply say, &apos;I believe
+            otherwise, but I think and let think. I am not fond of contending on
+            this or any other head lest I receive more hurt than I can do good.&apos;
+            Remember your calling. Be</p>
+            <lg>
+            <l>A simple follower of the Lamb,</l>
+            <l>And harmless as a little child.<note where="foot" n="3">
+            CW, &apos;<index indexName="biblical"><term cRef="Psalm32">Psalm 32</term></index>&apos;, st. 2, CPH (<date when="1743">1743</date>), 70.</note></l>
+            <!--Should Psalm 32 be tagged as a biblical term here?-->
+            </lg>
+         <!--no closer or signature exist for this letter-->
+      </body>
+   </text>
+</TEI>
