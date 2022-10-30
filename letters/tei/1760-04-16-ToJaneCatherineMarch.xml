@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc> 
+         <titleStmt>
+            <title>To Jane Catherine March (April 16, 1760)</title>
+            <author>Wesley, John</author>
+            <editor>Chow Quan, Christian, Andrew</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>The Wesley Works</publisher>
+            <pubPlace>Tampa, FL</pubPlace>
+            <date>2022-10-30</date>
+            <idno type="URI">http://syriaca.org/letters/1760-04-16-ToJaneCatherineMarch</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">To Jane Catherine March (April 16, 1760)</title>
+                     <date when="1760-04-16"/>
+                  </analytic>
+                  <monogr>
+                     <title level="j">The Works of John Wesley, Volume 27: Letters III,
+                        1756-1765</title>
+                     <editor role="volume">Campbell, Ted A.</editor>
+                     <imprint>
+                        <publisher>Abingdon Press</publisher>
+                        <pubPlace>Nashville, TN</pubPlace>
+                        <date when="2015-11-03">2015-11-03</date>
+                        <biblScope unit="volume" n="27"/>
+                        <biblScope unit="page" from="190" to="191"/>
+                     </imprint>
+                  </monogr>
+                  <series>
+                     <title level="s">The Works of John Wesley</title>
+                     <editor role="general">Maddox, Randy L.</editor>
+                  </series>
+               </biblStruct>
+               <bibl n="2">Source: published transcription; <hi rend="italic">Methodist Magazine</hi> 
+                           22 (<date when="1799">1799</date>): 49.
+                           </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson type="correspondents">
+               <person xml:id="pers2180">
+                  <persName>John Wesley</persName>
+               </person>
+               <person xml:id="pers1358">
+                  <persName>Jane Catherine March</persName>
+               </person>
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2022-01-01">note about revisions made</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>To <persName><ref target="/persons/pers1358.xml"/>Jane Catherine March</persName></head>
+         <opener><placeName>Dublin</placeName><lb/><date when="1760-04-16">April 16, 1760</date><lb/><lb/>
+         <!--No salute present-->>
+         </opener>
+         <p><placeName>Eltham</placeName> is a barren soil indeed. I fear scarce any are to be found
+            there who know anything of the power of religion, and not many
+            that have so much as the form. But God is there, and he can supply
+            every want. Nothing contributes to seriousness more than humility,
+            because it is a preparation for every fruit of the Holy Spirit; and the
+            knowledge of our desperate state by sin has a particular tendency</pb n="191">
+            to keep us earnest after deliverance; and that earnestness can hardly
+            consist with levity, either of temper or behaviour.</p>
+         <p>Those who have tasted of the goodness of God are frequently
+            wanting in declaring it. They do not, as they ought, stir up the gift
+            of God which is in every believer by exciting one another to continual
+            thankfulness and provoking each other to love and good works.
+            We should never be content to make a drawn battle, to part neither
+            better nor worse than we met. Christian conversation is too precious
+            a talent to be thus squandered away.</p>
+         <p>It does not require a large share of natural wisdom to see God
+            in all things, in all his works of creation as well as of providence.
+            This is rather a branch of spiritual wisdom, and is given to believers
+            more and more as they advance in purity of heart.</p>
+         <p>Probably it would be of use to you to be as regular as you can;
+            I mean, to allot such hours to such employments. Only not to be
+            troubled when providence calls you from them. For the best rule of
+            all is <hi rend="italic">to follow the will of God</hi>.</p>
+         <!--No closer or signature present-->
+      </body>
+   </text>
+</TEI>
